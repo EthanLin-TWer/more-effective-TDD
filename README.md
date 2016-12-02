@@ -24,6 +24,7 @@ Github 里所有关于 TDD 的代码最后都会迁移到这个仓库来。既�
 * [Junit 5 Gradle 插件示例代码](https://github.com/junit-team/junit5-samples/tree/master/junit5-gradle-consumer)
 * [JUnit 5 官方文档](http://junit.org/junit5/docs/current/user-guide/)
 * [Junit 5 With Mockito](https://github.com/junit-team/junit5-samples/tree/master/junit5-mockito-extension)
+* [Intellij Support for JUnit 5 M3](https://youtrack.jetbrains.com/issue/IDEA-164865)。JUnit 5 M3是两天前刚出来的版本（11月30号），上面这个 issue 是12月1号在 Intellij tracker 上被提出的，12月2号在2016.3.1 2017.1版本中修复。现在还未能使用到修复版，只有静待下一版发布
 
 ### Misc
 
