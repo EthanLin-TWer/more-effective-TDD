@@ -14,6 +14,7 @@ Github 里所有关于 TDD 的代码最后都会迁移到这个仓库来。既�
 
 * 安装：`git clone git@github.com:linesh-simplicity/bravo-tdd-test-driven-development.git`
 * 依赖安装：`./gradlew clean build --refresh-dependencies`
+* 运行 checkstyle：`./gradlew check`
 * 运行所有测试：`./gradlew clean junitPlatformTest`
 
 ## JUnit 5 配置参考
