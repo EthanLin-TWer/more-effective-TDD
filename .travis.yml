@@ -1,4 +1,6 @@
 lauguage: java
+jdk:
+  - oraclejdk8
 install:
   - ./gradlew assemble
 script:
