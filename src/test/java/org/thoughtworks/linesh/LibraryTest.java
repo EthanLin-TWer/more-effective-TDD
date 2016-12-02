@@ -1,7 +1,11 @@
+package org.thoughtworks.linesh;
+
 import mockito.Mockito;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
+import org.thoughtworks.linesh.Library;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.verify;
@@ -17,12 +21,14 @@ public class LibraryTest {
     }
 
     @Test
+    @Disabled
     public void testSomeLibraryMethod() {
         Library classUnderTest = new Library();
         assertTrue(classUnderTest.someLibraryMethod());
     }
 
     @Test
+    @Disabled
     void testUsingMockito() {
         library.someLibraryMethod();
 
