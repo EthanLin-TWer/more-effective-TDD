@@ -1,4 +1,4 @@
-# bravo-tdd-test-driven-development
+# bravo-tdd-test-driven-development [![][Badges: Travis CI]][Links: Travis CI]
 
 我终于顿悟了，TDD 其实只是一种管理代码的方法论，犹如 GTD 之于时间管理，犹如 PKM 之于知识管理，而非决定代码质量的具体设计指导。
 
@@ -21,3 +21,8 @@ Github 里所有关于 TDD 的代码最后都会迁移到这个仓库来。既�
 * [Junit 5 Gradle 插件示例代码](https://github.com/junit-team/junit5-samples/tree/master/junit5-gradle-consumer)
 * [JUnit 5 官方文档](http://junit.org/junit5/docs/current/user-guide/)
 * [Junit 5 With Mockito](https://github.com/junit-team/junit5-samples/tree/master/junit5-mockito-extension)
+
+
+
+[Badges: Travis CI]: https://img.shields.io/travis/linesh-simplicity/bravo-tdd-test-driven-development.svg?maxAge=2592000
+[Links: Travis CI]: https://travis-ci.org/linesh-simplicity/bravo-tdd-test-driven-development
