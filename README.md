@@ -25,5 +25,5 @@ Github 里所有关于 TDD 的代码最后都会迁移到这个仓库来。既�
 
 
 
-[Badges: Travis CI]: https://img.shields.io/travis/linesh-simplicity/bravo-tdd-test-driven-development.svg?maxAge=2592000
+[Badges: Travis CI]: https://travis-ci.org/linesh-simplicity/bravo-tdd-test-driven-development.svg?branch=master
 [Links: Travis CI]: https://travis-ci.org/linesh-simplicity/bravo-tdd-test-driven-development
