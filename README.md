@@ -17,11 +17,18 @@ Github 里所有关于 TDD 的代码最后都会迁移到这个仓库来。既�
 * 运行 checkstyle：`./gradlew check`
 * 运行所有测试：`./gradlew clean junitPlatformTest`
 
-## JUnit 5 配置参考
+## 参考
+
+### JUnit 5
 
 * [Junit 5 Gradle 插件示例代码](https://github.com/junit-team/junit5-samples/tree/master/junit5-gradle-consumer)
 * [JUnit 5 官方文档](http://junit.org/junit5/docs/current/user-guide/)
 * [Junit 5 With Mockito](https://github.com/junit-team/junit5-samples/tree/master/junit5-mockito-extension)
+
+### Misc
+
+* [使用 shields.io 创建 Travis 图标](http://shields.io/)
+* [如何使用 travis 提供的 badges 图标](https://docs.travis-ci.com/user/status-images/)
 
 
 
