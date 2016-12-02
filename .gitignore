@@ -1,6 +1,9 @@
 # Gradle 
 .gradle
+build
 
 # Intellij
 .idea
 *.ipr
+*.iml
+*.iws

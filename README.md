@@ -7,5 +7,17 @@ Github 里所有关于 TDD 的代码最后都会迁移到这个仓库来。既�
 ## 技术栈（Tech Stack）
 
 * Java 8 & Lambda
-* JUnit 5 & Mockito
+* JUnit 5 with Mockito
 * Gradle
+
+## 运行项目
+
+* 安装：`git clone git@github.com:linesh-simplicity/bravo-tdd-test-driven-development.git`
+* 依赖安装：`./gradlew clean build --refresh-dependencies`
+* 运行所有测试：`./gradlew clean junitPlatformTest`
+
+## JUnit 5 配置参考
+
+* [Junit 5 Gradle 插件示例代码](https://github.com/junit-team/junit5-samples/tree/master/junit5-gradle-consumer)
+* [JUnit 5 官方文档](http://junit.org/junit5/docs/current/user-guide/)
+* [Junit 5 With Mockito](https://github.com/junit-team/junit5-samples/tree/master/junit5-mockito-extension)
