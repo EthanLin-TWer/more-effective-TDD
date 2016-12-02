@@ -31,5 +31,6 @@ idea.project {
 }
 
 checkstyle {
+    toolVersion = '7.3'
     configFile = new File('src/main/config/checkstyle/checkstyle.xml')
 }
