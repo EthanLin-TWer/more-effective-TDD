@@ -2,8 +2,6 @@ package org.thoughtworks.linesh.fizzbuzzwhizz;
 
 public class GameRuleConfig {
     // TODO: [Linesh][12/3/16] Checkout REFACTOR to see how to migrate fields to another class
-    private int firstSpecialNumber;
-    private int secondSpecialNumber;
     private SpecialNumber specialNumbers = new SpecialNumber();
 
     public void setFirstSpecialNumber(int firstSpecialNumber) {
@@ -15,10 +13,10 @@ public class GameRuleConfig {
     }
 
     public void setSecondSpecialNumber(int secondSpecialNumber) {
-        this.secondSpecialNumber = secondSpecialNumber;
+        this.specialNumbers.setSecond(secondSpecialNumber);
     }
 
     public int getSecondSpecialNumber() {
-        return secondSpecialNumber;
+        return this.specialNumbers.getSecond();
     }
 }
