@@ -16,12 +16,23 @@ class StudentTest {
     class SayFizzWhenNumberContainsTheFirstSpecialNumber {
 
         private final int firstSpecial = 3;
+        private Student student;
+
+        @BeforeEach
+        void setUp() {
+            student = new Student();
+        }
 
         @Test
         void should_say_fizz_when_number_is_3() {
-            Student student = new Student();
-
             String said = student.say(3, firstSpecial);
+
+            assertEquals("Fizz", said);
+        }
+
+        @Test
+        void should_say_fizz_when_number_is_6() {
+            String said = student.say(6, firstSpecial);
 
             assertEquals("Fizz", said);
         }
