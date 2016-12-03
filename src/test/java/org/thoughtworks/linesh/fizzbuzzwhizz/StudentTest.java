@@ -50,8 +50,9 @@ class StudentTest {
 
         @Test
         void should_say_buzz_when_number_is_10() {
+            String said = student.say(10, secondSpecial);
 
-
+            assertEquals("Buzz", said);
         }
     }
 }
