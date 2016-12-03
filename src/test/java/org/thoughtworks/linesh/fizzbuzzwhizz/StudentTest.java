@@ -41,10 +41,17 @@ class StudentTest {
         private final int secondSpecial = 5;
 
         @Test
+        // TODO: [Linesh][12/3/16] Naming: where should the 'given' info go? method name? @Nested class name? @DisplayName?
         void should_say_buzz_when_number_is_5() {
             String said = student.say(5, secondSpecial);
 
             assertEquals("Buzz", said);
+        }
+
+        @Test
+        void should_say_buzz_when_number_is_10() {
+
+
         }
     }
 }
