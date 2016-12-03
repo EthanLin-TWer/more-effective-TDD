@@ -14,8 +14,19 @@ TDD 中产出的测试确实能作为重构的基础保障，但这只是附加�
 
 ## TDD Techniques 
 
-* Tasking and verifiable ACs(tasking及可验收的 AC)
-* Todo system with Intellij(相当于 GTD 中的收集步骤)
+### Tasking 任务分解
+
+Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务分解。关于如何做任务分解，分解到什么粒度，这个「stackoverflow的帖子」(http://stackoverflow.com/questions/34086509/should-we-give-concrete-examples-when-tasking-in-tdd)非常有助于理解：即我究竟是仅分解到逻辑上独立的任务即可，还是需要尽可能详细的测试数据？
+
+这个问题似乎也较难找到相应资料。目前，我的倾向是尽分解到逻辑上自洽的任务即可，确保它们就是且仅是完全需求所需的最少步骤。把详细的用例分解留到测试驱动的阶段来做。
+
+### Verifiable ACs 可验收的 AC
+
+做完上面一步，我们可以进一步把每个 task 分解成一系列可以验收的测试数据。这样这些 AC 描述了被分解的任务，同时也可以提供 input/output，这样测试用例也就出来了。开始 TDD 就可以了。
+
+分解得到的任务，何者先做？我之前也思考并在博客回答过这个问题：技术上，无所谓，因为有 mock 技术，任务之间是互不影响的；价值上，需求价值高的任务先做。
+
+### Todo system with Intellij(相当于 GTD 中的收集步骤)
 
 ## Confusion
 
