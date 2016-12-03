@@ -12,6 +12,11 @@ Github 里所有关于 TDD 的代码最后都会迁移到这个仓库来。既�
 
 TDD 中产出的测试确实能作为重构的基础保障，但这只是附加价值，并非采用 TDD 的核心动机。代码质量，需要通过整洁代码、设计模式等来长期维护。
 
+## TDD Techniques 
+
+* Tasking and verifiable ACs(tasking及可验收的 AC)
+* Todo system with Intellij(相当于 GTD 中的收集步骤)
+
 ## Confusion
 
 * TDD 只是个人的方法论工具吗？对项目来说有无其价值？
