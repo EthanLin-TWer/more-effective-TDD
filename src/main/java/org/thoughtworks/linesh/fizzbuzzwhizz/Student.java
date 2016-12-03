@@ -8,8 +8,8 @@ public class Student {
         this.config = config;
     }
 
-    public String say(int number, int firstSpecial) {
+    public String say(int number) {
         // TODO: [Linesh][12/3/16] Refactor
-        return firstSpecial == 3 ? "Fizz" : "Buzz";
+        return config.getFirstSpecialNumber() == 3 ? "Fizz" : "Buzz";
     }
 }

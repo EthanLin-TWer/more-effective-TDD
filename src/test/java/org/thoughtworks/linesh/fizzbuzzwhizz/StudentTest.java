@@ -13,24 +13,28 @@ class StudentTest {
 
     @BeforeEach
     void setUp() {
+        config = new GameRuleConfig();
         student = new Student(config);
     }
 
     @Nested
     class SayFizzWhenNumberCanBeDividedByTheFirstSpecialNumber {
 
-        private final int firstSpecial = 3;
+        @BeforeEach
+        void setUp() {
+            config.setFirstSpecialNumber(3);
+        }
 
         @Test
         void should_say_fizz_when_number_is_3() {
-            String said = student.say(3, firstSpecial);
+            String said = student.say(3);
 
             assertEquals("Fizz", said);
         }
 
         @Test
         void should_say_fizz_when_number_is_6() {
-            String said = student.say(6, firstSpecial);
+            String said = student.say(6);
 
             assertEquals("Fizz", said);
         }
@@ -44,14 +48,14 @@ class StudentTest {
         @Test
         // TODO: [Linesh][12/3/16] Naming: where should the 'given' info go? method name? @Nested class name? @DisplayName?
         void should_say_buzz_when_number_is_5() {
-            String said = student.say(5, secondSpecial);
+            String said = student.say(5);
 
             assertEquals("Buzz", said);
         }
 
         @Test
         void should_say_buzz_when_number_is_10() {
-            String said = student.say(10, secondSpecial);
+            String said = student.say(10);
 
             assertEquals("Buzz", said);
         }
