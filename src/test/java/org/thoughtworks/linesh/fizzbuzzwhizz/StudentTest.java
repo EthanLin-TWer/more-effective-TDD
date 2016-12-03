@@ -14,11 +14,14 @@ class StudentTest {
 
     @Nested
     class SayFizzWhenNumberContainsTheFirstSpecialNumber {
+
+        private final int firstSpecial = 3;
+
         @Test
         void should_say_fizz_when_number_is_3() {
             Student student = new Student();
 
-            String said = student.say(3, 7);
+            String said = student.say(3, firstSpecial);
 
             assertEquals("Fizz", said);
         }
