@@ -9,10 +9,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class StudentTest {
 
     private Student student;
+    private GameRuleConfig config;
 
     @BeforeEach
     void setUp() {
-        student = new Student();
+        student = new Student(config);
     }
 
     @Nested
