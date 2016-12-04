@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 import support.Tasking;
+import support.Todo;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -18,8 +19,7 @@ class StudentTest {
         student = new Student(config);
     }
 
-    @Tasking
-    @Nested
+    @Tasking @Nested
     class SayFizzWhenNumberCanBeDividedByTheFirstSpecialNumber {
 
         @BeforeEach
@@ -49,8 +49,7 @@ class StudentTest {
         }
     }
 
-    @Tasking
-    @Nested
+    @Tasking @Nested
     class SayBuzzWhenNumberCanBeDividedByTheSecondSpecialNumber {
 
         @BeforeEach
@@ -82,9 +81,8 @@ class StudentTest {
         }
     }
 
-    @Tasking
-    @Nested
-    class ShouldSayWhizzWhenNumberCanBeDividedByTheThirdSpecialNumber {
+    @Tasking @Nested
+    class SayWhizzWhenNumberCanBeDividedByTheThirdSpecialNumber {
         @BeforeEach
         void setUp() {
             config.setFirstSpecialNumber(3);
@@ -105,5 +103,30 @@ class StudentTest {
 
             assertEquals("Whizz", said);
         }
+    }
+
+    @Todo
+    class SayFizzBuzzWhenNumberCanBeDividedByBothTheFirstAndSecondSpecialNumber {
+
+    }
+
+    @Todo
+    class SayBuzzWhizzWhenNumberCanBeDividedByBothTheSecondAndThirdSpecialNumber {
+
+    }
+
+    @Todo
+    class SayFizzWhizzWhenNumberCanBeDividedByBothTheFirstAndThirdSpecialNumber {
+
+    }
+
+    @Todo
+    class SayFizzBuzzWhizzWhenNumberCanBeDividedByAllTheThreeNumbers {
+
+    }
+
+    @Todo
+    class SayFizzWhenNumberContainsTheFirstSpecialNumberRegardlessAllRulesAbove {
+
     }
 }
