@@ -9,6 +9,9 @@ public class Student {
 
     public String say(int number) {
         // TODO: [Linesh][12/3/16] Refactor: Said words separation of concern
+        if (String.valueOf(number).contains(String.valueOf(firstSpecialNumber()))) {
+            return "Fizz";
+        }
         return number % firstSpecialNumber() == 0 ? "Fizz" :
                 number % secondSpecialNumber() == 0 ? "Buzz" :
                 number % thirdSpecialNumber() == 0 ? "Whizz" : "";

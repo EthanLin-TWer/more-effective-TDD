@@ -94,8 +94,6 @@ class StudentTest {
 
     @Todo
     class SayFizzBuzzWhenNumberCanBeDividedByBothTheFirstAndSecondSpecialNumber {
-
-
     }
 
     @Todo
@@ -113,8 +111,13 @@ class StudentTest {
 
     }
 
-    @Todo
+    @Tasking @Nested
     class SayFizzWhenNumberContainsTheFirstSpecialNumberRegardlessAllRulesAbove {
+        @Test
+        void should_say_fizz_when_number_is_13_that_contains_special_number_3() {
+            String said = student.say(13);
 
+            assertEquals("Fizz", said);
+        }
     }
 }
