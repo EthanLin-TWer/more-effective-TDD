@@ -51,10 +51,9 @@ class StudentTest {
     @Tasking @Nested
     class SayBuzzWhenNumberCanBeDividedByTheSecondSpecialNumber {
 
-        private final int secondSpecial = 5;
-
         @BeforeEach
         void setUp() {
+            config.setFirstSpecialNumber(3);
             config.setSecondSpecialNumber(5);
         }
 
@@ -85,6 +84,8 @@ class StudentTest {
     class ShouldSayWhizzWhenNumberCanBeDividedByTheThirdSpecialNumber {
         @BeforeEach
         void setUp() {
+            config.setFirstSpecialNumber(3);
+            config.setSecondSpecialNumber(5);
             config.setThirdSpecialNumber(7);
         }
 
