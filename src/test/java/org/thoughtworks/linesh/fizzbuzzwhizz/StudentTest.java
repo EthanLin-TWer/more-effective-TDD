@@ -18,7 +18,8 @@ class StudentTest {
         student = new Student(config);
     }
 
-    @Tasking @Nested
+    @Tasking
+    @Nested
     class SayFizzWhenNumberCanBeDividedByTheFirstSpecialNumber {
 
         @BeforeEach
@@ -48,7 +49,8 @@ class StudentTest {
         }
     }
 
-    @Tasking @Nested
+    @Tasking
+    @Nested
     class SayBuzzWhenNumberCanBeDividedByTheSecondSpecialNumber {
 
         @BeforeEach
@@ -80,7 +82,8 @@ class StudentTest {
         }
     }
 
-    @Tasking @Nested
+    @Tasking
+    @Nested
     class ShouldSayWhizzWhenNumberCanBeDividedByTheThirdSpecialNumber {
         @BeforeEach
         void setUp() {
@@ -92,6 +95,13 @@ class StudentTest {
         @Test
         void should_say_whizz_when_number_is_7() {
             String said = student.say(7);
+
+            assertEquals("Whizz", said);
+        }
+
+        @Test
+        void should_say_whizz_when_number_is_14() {
+            String said = student.say(14);
 
             assertEquals("Whizz", said);
         }
