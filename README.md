@@ -16,9 +16,9 @@ TDD 中产出的测试确实能作为重构的基础保障，但这只是附加�
 
 ### Tasking 任务分解
 
-Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务分解。关于如何做任务分解，分解到什么粒度，这个「stackoverflow的帖子」(http://stackoverflow.com/questions/34086509/should-we-give-concrete-examples-when-tasking-in-tdd)非常有助于理解：即我究竟是仅分解到逻辑上独立的任务即可，还是需要尽可能详细的测试数据？
+Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务分解？分解到什么粒度？这个 「stackoverflow的帖子」(http://stackoverflow.com/questions/34086509/should-we-give-concrete-examples-when-tasking-in-tdd) 非常有助于理解：即我究竟是仅分解到逻辑上独立的任务即可，还是需要尽可能详细的测试数据？
 
-这个问题似乎也较难找到相应资料。目前，我的倾向是尽分解到逻辑上自洽的任务即可，确保它们就是且仅是完全需求所需的最少步骤。把详细的用例分解留到测试驱动的阶段来做。
+回答是，**分解到逻辑上自治的任务即可，确保它们就是且仅是完全需求所需的最少步骤，并且相互之间尽可能独立没有依赖**。把详细的用例分解留到测试驱动的阶段来做。
 
 ### Verifiable ACs 可验收的 AC
 
@@ -26,7 +26,11 @@ Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务�
 
 分解得到的任务，何者先做？我之前也思考并在博客回答过这个问题：技术上，无所谓，因为有 mock 技术，任务之间是互不影响的；价值上，需求价值高的任务先做。
 
-### Todo system with Intellij(相当于 GTD 中的收集步骤)
+### Tasking/Todolist as Code 任务分解即代码
+
+借用了 CI/CD 的说法：基础设施即代码。使用 JUnit 5 的 `@Nested` 特性，你可以把代码外的 tasking/列todolist 直接映射到代码层来。你不必等到所有测试用例出来以后才开始写代码，相反在得到任务列表之后就已经可以开始使用代码 `@Todo` 来描述了；而正在进行中的任务可以使用 `@Tasking` 来注解，用于标识其下的所有测试用例都归属于这个任务。你可以参考 [这个](https://github.com/linesh-simplicity/bravo-tdd-test-driven-development/blob/master/src/test/java/org/thoughtworks/linesh/fizzbuzzwhizz/StudentTest.java) 测试类。
+
+### Refactor: Todo system with Intellij 重构：巧用 Intellij TODO 系统
 
 ## Confusion
 
