@@ -53,8 +53,13 @@ class StudentTest {
 
         private final int secondSpecial = 5;
 
+        @BeforeEach
+        void setUp() {
+            config.setSecondSpecialNumber(5);
+        }
+
         @Test
-        // TODO: [Linesh][12/3/16] Naming: where should the 'given' info go? method name? @Nested class name? @DisplayName?
+            // TODO: [Linesh][12/3/16] Naming: where should the 'given' info go? method name? @Nested class name? @DisplayName?
         void should_say_buzz_when_number_is_5() {
             String said = student.say(5);
 
@@ -73,6 +78,21 @@ class StudentTest {
             String said = student.say(95);
 
             assertEquals("Buzz", said);
+        }
+    }
+
+    @Tasking @Nested
+    class ShouldSayWhizzWhenNumberCanBeDividedByTheThirdSpecialNumber {
+        @BeforeEach
+        void setUp() {
+            config.setThirdSpecialNumber(7);
+        }
+
+        @Test
+        void should_say_whizz_when_number_is_7() {
+            String said = student.say(7);
+
+            assertEquals("Whizz", said);
         }
     }
 }

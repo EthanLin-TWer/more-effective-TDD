@@ -10,6 +10,7 @@ public class Student {
 
     public String say(int number) {
         // TODO: [Linesh][12/3/16] Refactor
-        return config.getFirstSpecialNumber() == 3 ? "Fizz" : "Buzz";
+        return config.getFirstSpecialNumber() == 3 ? "Fizz" :
+                config.getSecondSpecialNumber() == 5 ? "Buzz" : "Whizz";
     }
 }
