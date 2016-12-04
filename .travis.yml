@@ -2,9 +2,9 @@ lauguage: java
 jdk:
   - oraclejdk8
 install:
-  - ./gradlew assemble
+  - ./gradlew assemble --no-daemon
 script:
-  - ./gradlew clean check junitPlatformTest
+  - ./gradlew clean check junitPlatformTest --no-daemon
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
