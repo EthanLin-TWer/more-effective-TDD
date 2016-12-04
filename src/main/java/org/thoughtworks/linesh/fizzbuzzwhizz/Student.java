@@ -12,7 +12,9 @@ public class Student {
         // TODO: [Linesh][12/3/16] Refactor
         int first = config.getFirstSpecialNumber();
         int second = config.getSecondSpecialNumber();
+        int third = config.getThirdSpecialNumber();
         return number % first == 0 ? "Fizz" :
-                number % second == 0 ? "Buzz" : "Whizz";
+                number % second == 0 ? "Buzz" :
+                        number % third == 0 ? "Whizz" : "";
     }
 }
