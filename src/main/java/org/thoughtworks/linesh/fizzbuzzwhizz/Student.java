@@ -10,20 +10,20 @@ public class Student {
 
     public String say(int number) {
         // TODO: [Linesh][12/3/16] Refactor
-        return number % firstSpecial() == 0 ? "Fizz" :
-                number % secondSpecial() == 0 ? "Buzz" :
-                number % thirdSpecial() == 0 ? "Whizz" : "";
+        return number % firstSpecialNumber() == 0 ? "Fizz" :
+                number % secondSpecialNumber() == 0 ? "Buzz" :
+                number % thirdSpecialNumber() == 0 ? "Whizz" : "";
     }
 
-    private int thirdSpecial() {
+    private int thirdSpecialNumber() {
         return config.getThirdSpecialNumber();
     }
 
-    private int secondSpecial() {
+    private int secondSpecialNumber() {
         return config.getSecondSpecialNumber();
     }
 
-    private int firstSpecial() {
+    private int firstSpecialNumber() {
         return config.getFirstSpecialNumber();
     }
 }
