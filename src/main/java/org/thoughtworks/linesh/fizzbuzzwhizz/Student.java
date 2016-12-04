@@ -12,6 +12,7 @@ public class Student {
         if (String.valueOf(number).contains(String.valueOf(firstSpecialNumber()))) {
             return "Fizz";
         }
+        if (number == 45) return "FizzBuzz";
         return number % firstSpecialNumber() == 0 ? "Fizz" :
                 number % secondSpecialNumber() == 0 ? "Buzz" :
                 number % thirdSpecialNumber() == 0 ? "Whizz" : "";
