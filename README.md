@@ -35,6 +35,7 @@ Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务�
 ## Confusion
 
 * TDD 只是个人的方法论工具吗？对项目来说有无其价值？
+* 何时查看 Todolist？
 
 ## 技术栈（Tech Stack）
 
