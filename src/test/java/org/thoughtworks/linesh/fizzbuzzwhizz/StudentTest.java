@@ -16,16 +16,15 @@ class StudentTest {
     @BeforeEach
     void setUp() {
         config = new GameRuleConfig();
+        config.setFirstSpecialNumber(3);
+        config.setSecondSpecialNumber(5);
+        config.setThirdSpecialNumber(7);
+
         student = new Student(config);
     }
 
     @Tasking @Nested
     class SayFizzWhenNumberCanBeDividedByTheFirstSpecialNumber {
-
-        @BeforeEach
-        void setUp() {
-            config.setFirstSpecialNumber(3);
-        }
 
         @Test
         void should_say_fizz_when_number_is_3() {
@@ -52,14 +51,8 @@ class StudentTest {
     @Tasking @Nested
     class SayBuzzWhenNumberCanBeDividedByTheSecondSpecialNumber {
 
-        @BeforeEach
-        void setUp() {
-            config.setFirstSpecialNumber(3);
-            config.setSecondSpecialNumber(5);
-        }
-
         @Test
-            // TODO: [Linesh][12/3/16] Naming: where should the 'given' info go? method name? @Nested class name? @DisplayName?
+        // TODO: [Linesh][12/3/16] Naming: where should the 'given' info go? method name? @Nested class name? @DisplayName?
         void should_say_buzz_when_number_is_5() {
             String said = student.say(5);
 
@@ -83,12 +76,6 @@ class StudentTest {
 
     @Tasking @Nested
     class SayWhizzWhenNumberCanBeDividedByTheThirdSpecialNumber {
-        @BeforeEach
-        void setUp() {
-            config.setFirstSpecialNumber(3);
-            config.setSecondSpecialNumber(5);
-            config.setThirdSpecialNumber(7);
-        }
 
         @Test
         void should_say_whizz_when_number_is_7() {
@@ -107,6 +94,7 @@ class StudentTest {
 
     @Todo
     class SayFizzBuzzWhenNumberCanBeDividedByBothTheFirstAndSecondSpecialNumber {
+
 
     }
 
