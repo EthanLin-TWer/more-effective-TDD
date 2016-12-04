@@ -67,5 +67,12 @@ class StudentTest {
 
             assertEquals("Buzz", said);
         }
+
+        @Test
+        void should_say_buzz_when_number_is_95() {
+            String said = student.say(95);
+
+            assertEquals("Buzz", said);
+        }
     }
 }
