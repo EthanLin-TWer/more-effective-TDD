@@ -8,7 +8,7 @@
  * http://www.eclipse.org/legal/epl-v10.html
  */
 
-package mockito;
+package support.mockito;
 
 import static org.mockito.Mockito.mock;
 

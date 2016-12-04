@@ -1,4 +1,4 @@
-package mockito;
+package support.mockito;
 
 import org.junit.jupiter.api.extension.ExtendWith;
 
