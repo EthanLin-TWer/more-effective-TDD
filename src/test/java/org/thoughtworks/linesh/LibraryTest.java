@@ -21,14 +21,12 @@ public class LibraryTest {
     }
 
     @Test
-    @Disabled
     public void testSomeLibraryMethod() {
         Library classUnderTest = new Library();
         assertTrue(classUnderTest.someLibraryMethod());
     }
 
     @Test
-    @Disabled
     void testUsingMockito() {
         library.someLibraryMethod();
 

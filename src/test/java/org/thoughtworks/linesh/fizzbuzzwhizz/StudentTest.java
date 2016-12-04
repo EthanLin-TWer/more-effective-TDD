@@ -3,6 +3,7 @@ package org.thoughtworks.linesh.fizzbuzzwhizz;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
+import support.Tasking;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -17,7 +18,7 @@ class StudentTest {
         student = new Student(config);
     }
 
-    @Nested
+    @Tasking @Nested
     class SayFizzWhenNumberCanBeDividedByTheFirstSpecialNumber {
 
         @BeforeEach
@@ -40,7 +41,7 @@ class StudentTest {
         }
     }
 
-    @Nested
+    @Tasking @Nested
     class SayBuzzWhenNumberCanBeDividedByTheSecondSpecialNumber {
 
         private final int secondSpecial = 5;
