@@ -119,5 +119,12 @@ class StudentTest {
 
             assertEquals("Fizz", said);
         }
+
+        @Test
+        void should_say_fizz_when_number_is_35_that_can_be_devided_by_5_and_7() {
+            String said = student.say(35);
+
+            assertEquals("Fizz", said);
+        }
     }
 }
