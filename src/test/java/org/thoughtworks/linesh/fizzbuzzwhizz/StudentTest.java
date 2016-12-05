@@ -136,9 +136,15 @@ class StudentTest {
         }
     }
 
-    @Todo
+    @Tasking @Nested
     class SayFizzBuzzWhizzWhenNumberCanBeDividedByAllTheThreeNumbers {
 
+        @Test
+        void should_say_fizz_buzz_when_number_is_105() {
+            String said = student.say(105);
+
+            assertEquals("FizzBuzzWhizz", said);
+        }
     }
 
     @Tasking @Nested
