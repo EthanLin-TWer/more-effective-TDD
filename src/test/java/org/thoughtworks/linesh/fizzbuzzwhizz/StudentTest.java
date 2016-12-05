@@ -172,6 +172,11 @@ class StudentTest {
 
     @Tasking @Nested
     class SayOriginNumberWhenNumberDoesNotSatisfiedAllRulesAbove {
+        @Test
+        void should_say_0_when_number_is_0() {
+            String said = student.say(0);
 
+            assertEquals("0", said);
+        }
     }
 }

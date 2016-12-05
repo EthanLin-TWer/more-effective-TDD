@@ -10,6 +10,7 @@ public class Student {
     public String say(int number) {
         // TODO: [Linesh][12/3/16] Refactor: Said words separation of concern
         // TODO: [Linesh][12/4/16] 这两种不同规则有"规则"的概念，如何体现并分离？
+        if (number == 0) return "0";
         if (String.valueOf(number).contains(String.valueOf(firstSpecialNumber()))) {
             return "Fizz";
         }
