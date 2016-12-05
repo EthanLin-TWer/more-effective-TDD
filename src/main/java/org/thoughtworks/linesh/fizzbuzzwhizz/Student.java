@@ -11,7 +11,6 @@ public class Student {
         // TODO: [Linesh][12/3/16] Refactor: Said words separation of concern
         // TODO: [Linesh][12/4/16] 这两种不同规则有"规则"的概念，如何体现并分离？
         if (number == 0) return "0";
-        if (number == 1) return "1";
         if (String.valueOf(number).contains(String.valueOf(firstSpecialNumber()))) {
             return "Fizz";
         }
@@ -22,7 +21,7 @@ public class Student {
         if (number % secondSpecialNumber() == 0) result += "Buzz";
         if (number % thirdSpecialNumber() == 0) result += "Whizz";
 
-        return result;
+        return result.isEmpty() ? String.valueOf(number) : result;
     }
 
     private int thirdSpecialNumber() {

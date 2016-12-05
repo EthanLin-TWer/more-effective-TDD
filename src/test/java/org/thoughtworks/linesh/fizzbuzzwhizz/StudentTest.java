@@ -185,5 +185,12 @@ class StudentTest {
 
             assertEquals("1", said);
         }
+
+        @Test
+        void should_say_4_when_number_is_4() {
+            String said = student.say(4);
+
+            assertEquals("4", said);
+        }
     }
 }
