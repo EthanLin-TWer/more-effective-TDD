@@ -178,5 +178,12 @@ class StudentTest {
 
             assertEquals("0", said);
         }
+
+        @Test
+        void should_say_1_when_number_is_1() {
+            String said = student.say(1);
+
+            assertEquals("1", said);
+        }
     }
 }
