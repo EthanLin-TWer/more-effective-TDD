@@ -109,9 +109,14 @@ class StudentTest {
         }
     }
 
-    @Todo
+    @Tasking
     class SayBuzzWhizzWhenNumberCanBeDividedByBothTheSecondAndThirdSpecialNumber {
+        @Test
+        void should_say_buzz_whizz_when_number_is_70() {
+            String said = student.say(70);
 
+            assertEquals("BuzzWhizz", said);
+        }
     }
 
     @Todo
