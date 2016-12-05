@@ -109,7 +109,7 @@ class StudentTest {
         }
     }
 
-    @Tasking
+    @Tasking @Nested
     class SayBuzzWhizzWhenNumberCanBeDividedByBothTheSecondAndThirdSpecialNumber {
         @Test
         void should_say_buzz_whizz_when_number_is_70() {
@@ -119,9 +119,14 @@ class StudentTest {
         }
     }
 
-    @Todo
+    @Tasking @Nested
     class SayFizzWhizzWhenNumberCanBeDividedByBothTheFirstAndThirdSpecialNumber {
+        @Test
+        void should_say_fizz_whizz_when_number_is_21() {
+            String said = student.say(21);
 
+            assertEquals("FizzWhizz", said);
+        }
     }
 
     @Todo
