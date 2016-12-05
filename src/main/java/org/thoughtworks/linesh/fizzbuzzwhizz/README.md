@@ -57,3 +57,14 @@ Buzz
 10. 学生报数时，如果不符合规则2~9，直接报该数字本身，比如5(2,3,7)->5
 
 ## 快速建模与设计
+
+代码撸完后，发现实现这么一个代码是容易的，不过[`Student`]((https://github.com/linesh-simplicity/bravo-tdd-test-driven-development/blob/master/src/main/java/org/thoughtworks/linesh/fizzbuzzwhizz/Student.java))这个类里依然有些味道：它不符合 SRP 原则。现在可能有很多个理由可能导致这个类要修改，比如：
+
+* 与特殊数相对应的词语（word）要改
+* 添加新的"规则"
+* 有新的"组合"需求
+
+"组合"，指的是可以被多个特殊数整除的数，它的 result 其实是累加的，组合的。组合，在这里已经有一点设计词汇的味道。
+
+"规则"，指的是生成结果的几条法则是有一些特性的。比如"包含第一个特殊数的数字一律返回 Fizz"，它与其他规则实际是排斥的。"规则"这个概念在这里其实也有一些设计味道在里面。
+
