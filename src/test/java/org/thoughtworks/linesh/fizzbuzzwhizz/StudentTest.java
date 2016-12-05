@@ -127,6 +127,13 @@ class StudentTest {
 
             assertEquals("FizzWhizz", said);
         }
+
+        @Test
+        void should_say_fizz_whizz_when_number_is_84() {
+            String said = student.say(84);
+
+            assertEquals("FizzWhizz", said);
+        }
     }
 
     @Todo
