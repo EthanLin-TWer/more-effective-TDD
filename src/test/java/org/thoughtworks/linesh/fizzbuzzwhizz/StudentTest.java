@@ -100,6 +100,13 @@ class StudentTest {
 
             assertEquals("FizzBuzz", said);
         }
+
+        @Test
+        void should_say_fizz_buzz_when_number_is_60() {
+            String said = student.say(60);
+
+            assertEquals("FizzBuzz", said);
+        }
     }
 
     @Todo
@@ -127,8 +134,8 @@ class StudentTest {
         }
 
         @Test
-        void should_say_fizz_when_number_is_15_that_can_be_divided_by_3() {
-            String said = student.say(15);
+        void should_say_fizz_when_number_is_33_that_can_be_divided_by_3() {
+            String said = student.say(33);
 
             assertEquals("Fizz", said);
         }

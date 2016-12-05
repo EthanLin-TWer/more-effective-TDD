@@ -14,7 +14,9 @@ public class Student {
             return "Fizz";
         }
             // TODO: [Linesh][12/4/16] 这里出现了"组合"的概念，现在它被 hardcode 在此处，看看有无组合相关的设计模式，可以分离这个关注点
-        if (number == 45) return "FizzBuzz";
+        if (number % firstSpecialNumber() == 0 && number % secondSpecialNumber() == 0) {
+            return "FizzBuzz";
+        }
 
         return number % firstSpecialNumber() == 0 ? "Fizz" :
                 number % secondSpecialNumber() == 0 ? "Buzz" :
