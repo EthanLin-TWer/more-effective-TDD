@@ -18,10 +18,9 @@ public class Student {
             // TODO: [Linesh][12/4/16] 这里出现了"组合"的概念，现在它被 hardcode 在此处，看看有无组合相关的设计模式，可以分离这个关注点
         if (number % firstSpecialNumber() == 0) result += "Fizz";
         if (number % secondSpecialNumber() == 0) result += "Buzz";
+        if (number % thirdSpecialNumber() == 0) result += "Whizz";
 
-        return number % firstSpecialNumber() == 0 ? result :
-                number % secondSpecialNumber() == 0 ? result :
-                number % thirdSpecialNumber() == 0 ? "Whizz" : "";
+        return result;
     }
 
     private int thirdSpecialNumber() {
