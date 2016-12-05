@@ -169,4 +169,9 @@ class StudentTest {
             assertEquals("Fizz", said);
         }
     }
+
+    @Tasking @Nested
+    class SayOriginNumberWhenNumberDoesNotSatisfiedAllRulesAbove {
+
+    }
 }
