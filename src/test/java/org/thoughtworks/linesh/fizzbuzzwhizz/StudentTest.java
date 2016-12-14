@@ -31,6 +31,13 @@ class StudentTest {
 
             assertEquals("Fizz", said);
         }
+
+        @Test
+        void should_say_fizz_when_number_is_99() {
+            String said = student.say(99, 3);
+
+            assertEquals("Fizz", said);
+        }
     }
 
     @Tasking(estimated = "2mins")
