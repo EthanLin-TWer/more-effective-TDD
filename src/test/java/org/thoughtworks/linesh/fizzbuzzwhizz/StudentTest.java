@@ -1,11 +1,20 @@
 package org.thoughtworks.linesh.fizzbuzzwhizz;
 
+import org.junit.jupiter.api.Test;
 import support.Tasking;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class StudentTest {
     @Tasking(estimated = "2mins")
-    class should_say_fizz_when_number_can_be_devided_by_the_first_special_number{
+    class should_say_fizz_when_number_can_be_devided_by_the_first_special_number {
+        @Test
+        void say_fizz_when_number_is_3() {
+            Student student = new Student();
+            String said = student.say(3, 3);
 
+            assertEquals("Fizz", said);
+        }
     }
 
     @Tasking(estimated = "2mins")
