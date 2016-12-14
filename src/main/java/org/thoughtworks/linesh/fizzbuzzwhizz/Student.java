@@ -2,9 +2,10 @@ package org.thoughtworks.linesh.fizzbuzzwhizz;
 
 public class Student {
     public String say(int number) {
-        // TODO: [Linesh][12/14/16] 1. words("buzz", "fizz") 
+        // TODO: [Linesh][12/14/16] 1. words("buzz", "fizz")
         if (number % this.secondSpecial == 0) return "Buzz";
-        return number % this.firstSpecial == 0 ? "Fizz" : "";
+        if (number % this.firstSpecial == 0) return "Fizz";
+        return "Whizz";
     }
 
     public Student setFirstSpecial(int firstSpecial) {
@@ -17,6 +18,12 @@ public class Student {
         return this;
     }
 
+    public Student setThirdSpecial(int thirdSpecial) {
+        this.thirdSpecial = thirdSpecial;
+        return this;
+    }
+
     private int firstSpecial;
     private int secondSpecial;
+    private int thirdSpecial;
 }

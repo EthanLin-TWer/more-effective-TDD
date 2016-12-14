@@ -13,7 +13,7 @@ class StudentTest {
     @BeforeEach
     void setUp() {
         student = new Student();
-        student.setFirstSpecial(3).setSecondSpecial(5);
+        student.setFirstSpecial(3).setSecondSpecial(5).setThirdSpecial(7);
     }
 
     @Tasking(estimated = "2mins")
@@ -60,7 +60,12 @@ class StudentTest {
 
     @Tasking(estimated = "2mins")
     class should_say_whizz_when_number_can_be_devided_by_the_third_special_number {
+        @Test
+        void should_say_whizz_when_number_is_7() {
+            String said = student.say(7);
 
+            assertEquals("Whizz", said);
+        }
     }
 
     @Tasking(estimated = "2mins")
