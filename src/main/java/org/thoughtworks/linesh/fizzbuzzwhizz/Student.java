@@ -5,7 +5,8 @@ public class Student {
         // TODO: [Linesh][12/14/16] 1. words("buzz", "fizz")
         if (number % this.secondSpecial == 0) return "Buzz";
         if (number % this.firstSpecial == 0) return "Fizz";
-        return "Whizz";
+        if (number % this.thirdSpecial == 0) return "Whizz";
+        return "";
     }
 
     public Student setFirstSpecial(int firstSpecial) {
