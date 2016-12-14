@@ -1,203 +1,50 @@
 package org.thoughtworks.linesh.fizzbuzzwhizz;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Nested;
-import org.junit.jupiter.api.Test;
 import support.Tasking;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 class StudentTest {
+    @Tasking
+    class should_say_fizz_when_number_can_be_devided_by_the_first_special_number{
 
-    private Student student;
-    private GameRuleConfig config;
-
-    @BeforeEach
-    void setUp() {
-        config = new GameRuleConfig();
-        config.setFirstSpecialNumber(3);
-        config.setSecondSpecialNumber(5);
-        config.setThirdSpecialNumber(7);
-
-        student = new Student(config);
     }
 
-    @Tasking @Nested
-    class SayFizzWhenNumberCanBeDividedByTheFirstSpecialNumber {
+    @Tasking
+    class should_say_buzz_when_number_can_be_devided_by_the_second_special_number {
 
-        @Test
-        void should_say_fizz_when_number_is_3() {
-            String said = student.say(3);
-
-            assertEquals("Fizz", said);
-        }
-
-        @Test
-        void should_say_fizz_when_number_is_6() {
-            String said = student.say(6);
-
-            assertEquals("Fizz", said);
-        }
-
-        @Test
-        void should_say_fizz_when_number_is_99() {
-            String said = student.say(99);
-
-            assertEquals("Fizz", said);
-        }
     }
 
-    @Tasking @Nested
-    class SayBuzzWhenNumberCanBeDividedByTheSecondSpecialNumber {
+    @Tasking
+    class should_say_whizz_when_number_can_be_devided_by_the_third_special_number {
 
-        @Test
-        // TODO: [Linesh][12/3/16] Naming: where should the 'given' info go? method name? @Nested class name? @DisplayName?
-        void should_say_buzz_when_number_is_5() {
-            String said = student.say(5);
-
-            assertEquals("Buzz", said);
-        }
-
-        @Test
-        void should_say_buzz_when_number_is_10() {
-            String said = student.say(10);
-
-            assertEquals("Buzz", said);
-        }
-
-        @Test
-        void should_say_buzz_when_number_is_95() {
-            String said = student.say(95);
-
-            assertEquals("Buzz", said);
-        }
     }
 
-    @Tasking @Nested
-    class SayWhizzWhenNumberCanBeDividedByTheThirdSpecialNumber {
+    @Tasking
+    class should_say_fizzbuzz_when_number_can_be_devided_by_the_first_and_second_special_number {
 
-        @Test
-        void should_say_whizz_when_number_is_7() {
-            String said = student.say(7);
-
-            assertEquals("Whizz", said);
-        }
-
-        @Test
-        void should_say_whizz_when_number_is_14() {
-            String said = student.say(14);
-
-            assertEquals("Whizz", said);
-        }
     }
 
-    @Tasking @Nested
-    class SayFizzBuzzWhenNumberCanBeDividedByBothTheFirstAndSecondSpecialNumber {
-        @Test
-        void should_say_fizz_buzz_when_number_is_45() {
-            String said = student.say(45);
+    @Tasking
+    class should_say_buzz_whizz_when_number_can_be_devided_by_the_second_and_third_special_number {
 
-            assertEquals("FizzBuzz", said);
-        }
-
-        @Test
-        void should_say_fizz_buzz_when_number_is_60() {
-            String said = student.say(60);
-
-            assertEquals("FizzBuzz", said);
-        }
     }
 
-    @Tasking @Nested
-    class SayBuzzWhizzWhenNumberCanBeDividedByBothTheSecondAndThirdSpecialNumber {
-        @Test
-        void should_say_buzz_whizz_when_number_is_70() {
-            String said = student.say(70);
+    @Tasking
+    class should_say_fizzwhizz_when_number_can_be_devided_by_the_first_and_third_special_number {
 
-            assertEquals("BuzzWhizz", said);
-        }
     }
 
-    @Tasking @Nested
-    class SayFizzWhizzWhenNumberCanBeDividedByBothTheFirstAndThirdSpecialNumber {
-        @Test
-        void should_say_fizz_whizz_when_number_is_21() {
-            String said = student.say(21);
+    @Tasking
+    class should_say_fizzbuzzwhizz_when_number_can_be_devided_by_the_all_three_special_number {
 
-            assertEquals("FizzWhizz", said);
-        }
-
-        @Test
-        void should_say_fizz_whizz_when_number_is_84() {
-            String said = student.say(84);
-
-            assertEquals("FizzWhizz", said);
-        }
     }
 
-    @Tasking @Nested
-    class SayFizzBuzzWhizzWhenNumberCanBeDividedByAllTheThreeNumbers {
+    @Tasking
+    class should_say_fizz_when_number_contains_the_first_special_number {
 
-        @Test
-        void should_say_fizz_buzz_when_number_is_105() {
-            String said = student.say(105);
-
-            assertEquals("FizzBuzzWhizz", said);
-        }
     }
 
-    @Tasking @Nested
-    class SayFizzWhenNumberContainsTheFirstSpecialNumberRegardlessAllRulesAbove {
-        @Test
-        void should_say_fizz_when_number_is_13_that_contains_special_number_3() {
-            String said = student.say(13);
+    @Tasking
+    class should_say_number_itself_when_none_of_the_rules_above_applies {
 
-            assertEquals("Fizz", said);
-        }
-
-        @Test
-        void should_say_fizz_when_number_is_33_that_can_be_divided_by_3() {
-            String said = student.say(33);
-
-            assertEquals("Fizz", said);
-        }
-
-        @Test
-        void should_say_fizz_when_number_is_35_that_can_be_divided_by_5_and_7() {
-            String said = student.say(35);
-
-            assertEquals("Fizz", said);
-        }
-    }
-
-    @Tasking @Nested
-    class SayOriginNumberWhenNumberDoesNotSatisfiedAllRulesAbove {
-        @Test
-        void should_say_0_when_number_is_0() {
-            String said = student.say(0);
-
-            assertEquals("0", said);
-        }
-
-        @Test
-        void should_say_1_when_number_is_1() {
-            String said = student.say(1);
-
-            assertEquals("1", said);
-        }
-
-        @Test
-        void should_say_4_when_number_is_4() {
-            String said = student.say(4);
-
-            assertEquals("4", said);
-        }
-
-        @Test
-        void should_say_96_when_number_is_94() {
-            String said = student.say(94);
-
-            assertEquals("94", said);
-        }
     }
 }
