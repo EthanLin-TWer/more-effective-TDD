@@ -2,6 +2,7 @@ package org.thoughtworks.linesh.fizzbuzzwhizz;
 
 public class Student {
     public String say(int number) {
+        // TODO: [Linesh][12/14/16] 1. words("buzz", "fizz") 
         if (number % this.secondSpecial == 0) return "Buzz";
         return number % this.firstSpecial == 0 ? "Fizz" : "";
     }
