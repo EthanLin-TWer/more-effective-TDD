@@ -66,6 +66,13 @@ class StudentTest {
 
             assertEquals("Whizz", said);
         }
+
+        @Test
+        void should_say_whizz_when_number_is_28() {
+            String said = student.say(28);
+
+            assertEquals("Whizz", said);
+        }
     }
 
     @Tasking(estimated = "2mins")
