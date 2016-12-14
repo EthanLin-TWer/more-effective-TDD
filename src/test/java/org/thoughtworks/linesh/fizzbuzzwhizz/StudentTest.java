@@ -42,7 +42,12 @@ class StudentTest {
 
     @Tasking(estimated = "2mins")
     class should_say_buzz_when_number_can_be_devided_by_the_second_special_number {
+        @Test
+        void should_say_buzz_when_number_is_5() {
+            String said = student.say(5, 5);
 
+            assertEquals("Buzz", said);
+        }
     }
 
     @Tasking(estimated = "2mins")
