@@ -19,7 +19,7 @@ class StudentTest {
     class should_say_fizz_when_number_can_be_devided_by_the_first_special_number {
 
         @Test
-        void say_fizz_when_number_is_3() {
+        void should_say_fizz_when_number_is_3() {
             String said = student.say(3, 3);
 
             assertEquals("Fizz", said);
