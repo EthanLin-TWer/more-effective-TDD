@@ -1,9 +1,7 @@
 package org.thoughtworks.linesh.fizzbuzzwhizz;
 
 public class Student {
-    public String say(int number, int firstSpecial) {
-        // TODO: [Linesh][12/14/16] should be able to pass in 2 special numbers
-        // TODO: [Linesh][12/14/16] remove hardcoded 'second' special number 5
+    public String say(int number) {
         if (number % this.secondSpecial == 0) return "Buzz";
         return number % this.firstSpecial == 0 ? "Fizz" : "";
     }

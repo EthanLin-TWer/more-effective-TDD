@@ -22,21 +22,21 @@ class StudentTest {
 
         @Test
         void should_say_fizz_when_number_is_3() {
-            String said = student.say(3, 3);
+            String said = student.say(3);
 
             assertEquals("Fizz", said);
         }
 
         @Test
         void should_say_fizz_when_number_is_6() {
-            String said = student.say(6, 3);
+            String said = student.say(6);
 
             assertEquals("Fizz", said);
         }
 
         @Test
         void should_say_fizz_when_number_is_99() {
-            String said = student.say(99, 3);
+            String said = student.say(99);
 
             assertEquals("Fizz", said);
         }
@@ -46,14 +46,14 @@ class StudentTest {
     class should_say_buzz_when_number_can_be_devided_by_the_second_special_number {
         @Test
         void should_say_buzz_when_number_is_5() {
-            String said = student.say(5, 5);
+            String said = student.say(5);
 
             assertEquals("Buzz", said);
         }
 
         @Test
         void should_say_buzz_when_number_is_10() {
-            String said = student.say(10, 5);
+            String said = student.say(10);
 
             assertEquals("Buzz", said);
         }
