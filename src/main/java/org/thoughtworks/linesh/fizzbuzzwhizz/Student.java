@@ -1,10 +1,16 @@
 package org.thoughtworks.linesh.fizzbuzzwhizz;
 
 public class Student {
+    private GameConfig config;
+
+    public Student(GameConfig config) {
+        this.config = config;
+    }
+
     public String say(int number) {
         // TODO: [Linesh][12/14/16] 1. words("buzz", "fizz")
         if (number % this.secondSpecial == 0) return "Buzz";
-        if (number % this.firstSpecial == 0) return "Fizz";
+        if (number % config.getFirstSpecial() == 0) return "Fizz";
         if (number % this.thirdSpecial == 0) return "Whizz";
         return "";
     }

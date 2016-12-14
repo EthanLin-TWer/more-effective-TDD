@@ -9,11 +9,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class StudentTest {
 
     private Student student;
+    private GameConfig config;
 
     @BeforeEach
     void setUp() {
-        student = new Student();
-        student.setFirstSpecial(3).setSecondSpecial(5).setThirdSpecial(7);
+        config = new GameConfig();
+        config.setFirstSpecial(3);
+
+        student = new Student(config);
+        student.setSecondSpecial(5).setThirdSpecial(7);
     }
 
     @Tasking(estimated = "2mins")
