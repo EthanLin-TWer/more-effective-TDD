@@ -13,8 +13,7 @@ class StudentTest {
     @BeforeEach
     void setUp() {
         student = new Student();
-        student.setFirstSpecial(3);
-        student.setSecondSpecial(5);
+        student.setFirstSpecial(3).setSecondSpecial(5);
     }
 
     @Tasking(estimated = "2mins")
