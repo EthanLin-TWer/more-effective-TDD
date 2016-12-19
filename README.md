@@ -87,7 +87,12 @@ Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务�
 * [虚拟座谈会：TDD 有多美 - infoq](http://www.infoq.com/cn/articles/virtual-panel-tdd)
 * [Todd Wei: TDD 到底美不美 - cnblogs](http://www.cnblogs.com/weidagang2046/archive/2011/02/23/1963277.html)
 * [逸言: 推行 TDD 的思考](http://agiledon.github.io/blog/2013/12/25/thought-about-applying-tdd/)
-* [Martin Fowler&Kent Beck&DHH: Is TDD Dead?](https://www.youtube.com/watch?v=z9quxZsLcfo)
+* Martin Fowler&Kent Beck&DHH: Is TDD Dead? Series
+    * [Is TDD Dead? Part I](https://www.youtube.com/watch?v=z9quxZsLcfo)
+    * [Is TDD Dead? Part II](https://www.youtube.com/watch?v=JoTB2mcjU7w)
+    * [Is TDD Dead? Part III](https://www.youtube.com/watch?v=YNw4baDz6WA)
+    * [Is TDD Dead? Part IV](https://www.youtube.com/watch?v=dGtasFJnUxI)
+    * [Is TDD Dead? Part V & VI](https://www.youtube.com/watch?v=gWD6REVeKW4)
 
 ### JUnit 5
 
