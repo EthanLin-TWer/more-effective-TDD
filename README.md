@@ -74,6 +74,21 @@ Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务�
 
 ## 参考
 
+### TDD 体系最精华资料
+
+* [Kent Beck: Test Driven Development by Example](https://book.douban.com/subject/1230036/)
+* [伍斌：驯服烂代码](https://book.douban.com/subject/26208707/)
+* [Martin Fowler/Jeff Xiong：重构-改善既有代码的设计](https://book.douban.com/subject/4262627/)
+* [GoF：设计模式-可复用面向对象软件的基础](https://book.douban.com/subject/1052241/)
+
+### 论战
+
+* [TDD 并不是看上去的那么美 - CoolShell](http://coolshell.cn/articles/3649.html)
+* [虚拟座谈会：TDD 有多美 - infoq](http://www.infoq.com/cn/articles/virtual-panel-tdd)
+* [Todd Wei: TDD 到底美不美 - cnblogs](http://www.cnblogs.com/weidagang2046/archive/2011/02/23/1963277.html)
+* [逸言: 推行 TDD 的思考](http://agiledon.github.io/blog/2013/12/25/thought-about-applying-tdd/)
+* [Martin Fowler&Kent Beck&DHH: Is TDD Dead?](https://www.youtube.com/watch?v=z9quxZsLcfo)
+
 ### JUnit 5
 
 * [Junit 5 Gradle 插件示例代码](https://github.com/junit-team/junit5-samples/tree/master/junit5-gradle-consumer)
