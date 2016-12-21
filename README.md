@@ -78,8 +78,9 @@ Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务�
 
 * [Kent Beck: Test Driven Development by Example](https://book.douban.com/subject/1230036/)
 * [伍斌：驯服烂代码](https://book.douban.com/subject/26208707/)
-* [Martin Fowler/Jeff Xiong：重构-改善既有代码的设计](https://book.douban.com/subject/4262627/)
 * [GoF：设计模式-可复用面向对象软件的基础](https://book.douban.com/subject/1052241/)
+* [Martin Fowler/Jeff Xiong：重构-改善既有代码的设计](https://book.douban.com/subject/4262627/)
+* [Joshua Kerievsky: 重构与模式](https://book.douban.com/subject/20393327/)
 
 ### 论战
 
