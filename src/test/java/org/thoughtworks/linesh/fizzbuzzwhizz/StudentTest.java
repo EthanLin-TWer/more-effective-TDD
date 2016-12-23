@@ -10,11 +10,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class StudentTest {
 
     private Student student;
-    private GameConfig config;
 
     @BeforeEach
     void setUp() {
-        config = new GameConfig();
+        GameConfig config = new GameConfig();
         config.setFirstSpecial(3);
 
         student = new Student(config);
