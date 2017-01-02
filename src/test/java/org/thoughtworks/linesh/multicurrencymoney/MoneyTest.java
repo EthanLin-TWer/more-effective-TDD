@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MoneyTest {
     @Tasking
     @Nested
-    class should_multiple_shares_with_price_and_get_total {
+    class should_test_multiplications {
         @Test
         void should_get_10_dollars_when_multiple_2_with_5() {
             Dollar five = new Dollar(5);
@@ -21,7 +21,7 @@ class MoneyTest {
     }
 
     @Tasking @Nested
-    class should_implement_value_object_equality {
+    class should_test_equality {
         @Test
         void should_5_dollars_equals_to_5_dollars() {
             assertTrue(new Dollar(5).equals(new Dollar(5)));

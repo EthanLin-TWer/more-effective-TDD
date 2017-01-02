@@ -15,8 +15,8 @@ public class Dollar {
         return this.amount;
     }
 
-    // TODO: [Linesh][1/2/17] Implement equals() method for value object
-
+    // TODO: [Linesh][1/2/17] Implement equality check with null object
+    // TODO: [Linesh][1/2/17] Implement equality check with different object type
     @Override
     public boolean equals(Object object) {
         Dollar dollar = (Dollar) object;
