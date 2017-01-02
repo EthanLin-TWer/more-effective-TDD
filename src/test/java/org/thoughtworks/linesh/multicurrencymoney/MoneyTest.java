@@ -16,7 +16,7 @@ class MoneyTest {
             Dollar ten = five.times(2);
 
             // TODO: [Linesh][1/2/17] Currency amount as int?
-            assertEquals(5 * 2, ten.getAmount());
+            assertEquals(new Dollar(10), ten);
         }
     }
 
