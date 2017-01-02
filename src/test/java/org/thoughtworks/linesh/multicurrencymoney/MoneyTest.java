@@ -14,6 +14,7 @@ class MoneyTest {
         void should_get_10_dollars_when_multiple_2_with_5() {
             Dollar five = new Dollar(5);
 
+            // It's actually a risk here that we rely on equality function for tests to work
             assertEquals(new Dollar(10), five.times(2));
         }
 
