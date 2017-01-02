@@ -1,9 +1,9 @@
 package org.thoughtworks.linesh.multicurrencymoney;
 
-public class Dollar {
+public class France {
     private int amount;
 
-    public Dollar(int amount) {
+    public France(int amount) {
         this.amount = amount;
     }
 
@@ -23,7 +23,6 @@ public class Dollar {
         France france = (France) object;
         return france.getAmount() == this.getAmount();
     }
-
 
     // TODO: [Linesh][1/2/17] Implement hashCode() method
 }
