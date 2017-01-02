@@ -14,4 +14,7 @@ public class Dollar {
     public int getAmount() {
         return this.amount;
     }
+
+    // TODO: [Linesh][1/2/17] Implement equals() method for value object
+    // TODO: [Linesh][1/2/17] Implement hashCode() method
 }
