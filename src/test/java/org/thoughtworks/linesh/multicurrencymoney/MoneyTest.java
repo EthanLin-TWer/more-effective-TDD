@@ -24,20 +24,21 @@ class MoneyTest {
 
             assertEquals(new Dollar(15), five.times(3));
         }
+
+        @Tasking @Nested
+        class should_test_equality {
+            @Test
+            void should_5_dollars_equals_to_5_dollars() {
+                assertTrue(new Dollar(5).equals(new Dollar(5)));
+            }
+
+            @Test
+            void should_5_dollars_not_equals_to_6_dollars() {
+                assertFalse(new Dollar(5).equals(new Dollar(6)));
+            }
+        }
     }
 
-    @Tasking @Nested
-    class should_test_equality {
-        @Test
-        void should_5_dollars_equals_to_5_dollars() {
-            assertTrue(new Dollar(5).equals(new Dollar(5)));
-        }
-
-        @Test
-        void should_5_dollars_not_equals_to_6_dollars() {
-            assertFalse(new Dollar(5).equals(new Dollar(6)));
-        }
-    }
     @Tasking
     @Nested
     class should_add_two_different_kinds_of_currency_given_exchange_rate {
