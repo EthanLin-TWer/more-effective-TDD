@@ -18,13 +18,15 @@ class MoneyTest {
             // TODO: [Linesh][1/2/17] Currency amount as int?
             assertEquals(5 * 2, ten.getAmount());
         }
+    }
 
+    @Tasking @Nested
+    class should_implement_value_object_equality {
         @Test
         void should_5_dollars_equals_to_5_dollars() {
             assertTrue(new Dollar(5).equals(new Dollar(5)));
         }
     }
-
     @Tasking
     @Nested
     class should_add_two_different_kinds_of_currency_given_exchange_rate {
