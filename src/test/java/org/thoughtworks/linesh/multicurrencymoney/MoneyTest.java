@@ -21,6 +21,7 @@ class MoneyTest {
         void should_get_15_dollars_when_multiple_3_with_5() {
             Dollar five = new Dollar(5);
 
+            assertEquals(new Dollar(15), five.times(3));
         }
     }
 
