@@ -16,6 +16,12 @@ class MoneyTest {
 
             assertEquals(new Dollar(10), five.times(2));
         }
+
+        @Test
+        void should_get_15_dollars_when_multiple_3_with_5() {
+            Dollar five = new Dollar(5);
+
+        }
     }
 
     @Tasking @Nested
