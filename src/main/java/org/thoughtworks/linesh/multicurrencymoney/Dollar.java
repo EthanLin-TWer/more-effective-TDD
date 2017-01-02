@@ -19,7 +19,7 @@ public class Dollar {
 
     @Override
     public boolean equals(Object dollar) {
-        return ((Dollar) dollar).getAmount() == 5;
+        return ((Dollar) dollar).getAmount() == this.getAmount();
     }
 
 
