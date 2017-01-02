@@ -26,6 +26,11 @@ class MoneyTest {
         void should_5_dollars_equals_to_5_dollars() {
             assertTrue(new Dollar(5).equals(new Dollar(5)));
         }
+
+        @Test
+        void should_5_dollars_not_equals_to_6_dollars() {
+            assertFalse(new Dollar(5).equals(new Dollar(6)));
+        }
     }
     @Tasking
     @Nested
