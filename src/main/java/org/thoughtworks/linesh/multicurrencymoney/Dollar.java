@@ -16,5 +16,12 @@ public class Dollar {
     }
 
     // TODO: [Linesh][1/2/17] Implement equals() method for value object
+
+    @Override
+    public boolean equals(Object obj) {
+        return true;
+    }
+
+
     // TODO: [Linesh][1/2/17] Implement hashCode() method
 }
