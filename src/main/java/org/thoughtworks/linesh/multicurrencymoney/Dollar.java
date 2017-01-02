@@ -18,8 +18,9 @@ public class Dollar {
     // TODO: [Linesh][1/2/17] Implement equals() method for value object
 
     @Override
-    public boolean equals(Object dollar) {
-        return ((Dollar) dollar).getAmount() == this.getAmount();
+    public boolean equals(Object object) {
+        Dollar dollar = (Dollar) object;
+        return dollar.getAmount() == this.getAmount();
     }
 
 
