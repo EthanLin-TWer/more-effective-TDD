@@ -6,30 +6,22 @@ import support.Tasking;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MoneyTest {
+class DollarTest {
     @Tasking @Nested
     class should_test_multiplications {
-        @Tasking @Nested
-        class should_test_dollar_multiplications {
-            @Test
-            void should_get_10_dollars_when_multiple_2_with_5() {
-                Dollar five = new Dollar(5);
+        @Test
+        void should_get_10_dollars_when_multiple_2_with_5() {
+            Dollar five = new Dollar(5);
 
-                // It's actually a risk here that we rely on equality function for tests to work
-                assertEquals(new Dollar(10), five.times(2));
-            }
-
-            @Test
-            void should_get_15_dollars_when_multiple_3_with_5() {
-                Dollar five = new Dollar(5);
-
-                assertEquals(new Dollar(15), five.times(3));
-            }
+            // It's actually a risk here that we rely on equality function for tests to work
+            assertEquals(new Dollar(10), five.times(2));
         }
 
-        @Tasking @Nested
-        class should_test_france_multiplications {
+        @Test
+        void should_get_15_dollars_when_multiple_3_with_5() {
+            Dollar five = new Dollar(5);
 
+            assertEquals(new Dollar(15), five.times(3));
         }
 
         @Tasking @Nested
