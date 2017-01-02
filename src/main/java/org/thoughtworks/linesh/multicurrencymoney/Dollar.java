@@ -12,6 +12,7 @@ public class Dollar {
     }
 
     public int getAmount() {
+        // TODO: [Linesh][1/2/17] Currency amount as int?
         return this.amount;
     }
 

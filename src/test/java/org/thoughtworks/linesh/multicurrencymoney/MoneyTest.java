@@ -13,10 +13,8 @@ class MoneyTest {
         @Test
         void should_get_10_dollars_when_multiple_2_with_5() {
             Dollar five = new Dollar(5);
-            Dollar ten = five.times(2);
 
-            // TODO: [Linesh][1/2/17] Currency amount as int?
-            assertEquals(new Dollar(10), ten);
+            assertEquals(new Dollar(10), five.times(2));
         }
     }
 
