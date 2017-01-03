@@ -1,5 +1,6 @@
 package org.thoughtworks.linesh.multicurrencymoney;
 
+// duplicated code of Dollar class and France class
 public class France {
     private int amount;
 
