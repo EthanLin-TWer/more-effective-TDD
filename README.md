@@ -109,5 +109,5 @@ Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务�
 
 
 
-[Badges: Travis CI]: https://travis-ci.org/linesh-simplicity/bravo-tdd-test-driven-development.svg?branch=master
-[Links: Travis CI]: https://travis-ci.org/linesh-simplicity/bravo-tdd-test-driven-development
+[Badges: Travis CI]: https://travis-ci.org/linesh-simplicity/TDD-methodology-and-deliberate-practice.svg?branch=master
+[Links: Travis CI]: https://travis-ci.org/linesh-simplicity/TDD-methodology-and-deliberate-practice
