@@ -13,7 +13,7 @@ public class FranceTest {
     @Nested
     class should_test_multiplications {
         @Test
-        void should_get_10_dollars_when_multiple_2_with_5() {
+        void should_get_10_frances_when_multiple_2_with_5() {
             France five = new France(5);
 
             // It's actually a risk here that we rely on equality function for tests to work
@@ -21,7 +21,7 @@ public class FranceTest {
         }
 
         @Test
-        void should_get_15_dollars_when_multiple_3_with_5() {
+        void should_get_15_frances_when_multiple_3_with_5() {
             France five = new France(5);
 
             assertEquals(new France(15), five.times(3));
@@ -30,12 +30,12 @@ public class FranceTest {
         @Tasking @Nested
         class should_test_equality {
             @Test
-            void should_5_dollars_equals_to_5_dollars() {
+            void should_5_frances_equals_to_5_frances() {
                 assertTrue(new France(5).equals(new France(5)));
             }
 
             @Test
-            void should_5_dollars_not_equals_to_6_dollars() {
+            void should_5_frances_not_equals_to_6_frances() {
                 assertFalse(new France(5).equals(new France(6)));
             }
         }
