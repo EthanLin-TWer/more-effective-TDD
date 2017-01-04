@@ -1,10 +1,9 @@
 package org.thoughtworks.linesh.multicurrencymoney;
 
 // duplicated code of Dollar class and France class
-public class France {
-    private int amount;
+public class France extends Money{
     public France(int amount) {
-        this.amount = amount;
+        super(amount);
     }
 
     public int getAmount() {
