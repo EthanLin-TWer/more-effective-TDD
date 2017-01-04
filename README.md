@@ -100,13 +100,12 @@ Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务�
 * [Junit 5 Gradle 插件示例代码](https://github.com/junit-team/junit5-samples/tree/master/junit5-gradle-consumer)
 * [JUnit 5 官方文档](http://junit.org/junit5/docs/current/user-guide/)
 * [Junit 5 With Mockito](https://github.com/junit-team/junit5-samples/tree/master/junit5-mockito-extension)
-* [Intellij Support for JUnit 5 M3](https://youtrack.jetbrains.com/issue/IDEA-164865)。JUnit 5 M3是两天前刚出来的版本（11月30号），上面这个 issue 是12月1号在 Intellij tracker 上被提出的，12月2号在2016.3.1 2017.1版本中修复。现在还未能使用到修复版，只有静待下一版发布
+* [Intellij 2016.3.1 RC: Support for JUnit 5 M3](https://blog.jetbrains.com/idea/2016/12/intellij-idea-2016-3-1-is-out/)。JUnit 5 M3 是11月30号发布的版本，由于其包含了不向下兼容的 API 改变，同时间 Intellij 并不能支持运行 JUnit 5 M3 的测试。12月1号这个问题被加入[Issue Tracker](https://youtrack.jetbrains.com/issue/IDEA-164865)，12月2号在2016.3.1 2017.1版本中修复，12月13号在2016.3.1 RC 这个发布版中开始支持 JUnit 5 M3。即是说，2016.3.1 RC 以后的 Intellij 版本才能使用 JUnit 5 M3；若要使用 JUnit 5 M2 及之前版本，必须切回到 2016.3 或以前的 Intellij 版本。
 
 ### Misc
 
 * [使用 shields.io 创建 Travis 图标](http://shields.io/)
 * [如何使用 travis 提供的 badges 图标](https://docs.travis-ci.com/user/status-images/)
-
 
 
 [Badges: Travis CI]: https://travis-ci.org/linesh-simplicity/TDD-methodology-and-deliberate-practice.svg?branch=master
