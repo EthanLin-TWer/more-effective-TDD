@@ -27,4 +27,8 @@ public abstract class Money {
     public static Money dollar(int amount) {
         return new Dollar(amount);
     }
+
+    public static Money france(int amount) {
+        return new France(amount);
+    }
 }

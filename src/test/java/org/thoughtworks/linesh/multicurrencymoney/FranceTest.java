@@ -14,7 +14,7 @@ public class FranceTest {
     class should_test_multiplications {
         @Test
         void should_get_10_frances_when_multiple_2_with_5() {
-            France five = new France(5);
+            Money five = Money.france(5);
 
             // It's actually a risk here that we rely on equality function for tests to work
             assertEquals(new France(10), five.times(2));
