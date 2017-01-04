@@ -6,7 +6,7 @@ public class France extends Money{
         super(amount);
     }
     
-    public France times(int multiplier) {
+    public Money times(int multiplier) {
         return new France(this.amount * multiplier);
     }
     
