@@ -16,7 +16,7 @@ public class Dollar extends Money {
         // TODO: [Linesh][1/2/17] Implement equality check with different object type
         if (object == null) return false;
         
-        Dollar money = (Dollar) object;
+        Money money = (Money) object;
         return money.getAmount() == this.getAmount();
     }
 

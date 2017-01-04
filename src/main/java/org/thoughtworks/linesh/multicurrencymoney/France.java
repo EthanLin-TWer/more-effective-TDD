@@ -16,8 +16,8 @@ public class France extends Money{
         // TODO: [Linesh][1/2/17] Implement equality check with different object type
         if (object == null) return false;
 
-        France france = (France) object;
-        return france.getAmount() == this.getAmount();
+        Money money = (Money) object;
+        return money.getAmount() == this.getAmount();
     }
 
     // TODO: [Linesh][1/2/17] Implement hashCode() method
