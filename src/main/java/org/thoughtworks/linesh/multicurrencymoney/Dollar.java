@@ -1,6 +1,6 @@
 package org.thoughtworks.linesh.multicurrencymoney;
 
-public class Dollar {
+public class Dollar extends Money {
 
     protected int amount;
 
