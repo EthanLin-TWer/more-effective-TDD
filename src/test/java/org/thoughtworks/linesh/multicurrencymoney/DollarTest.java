@@ -40,6 +40,11 @@ class DollarTest {
             void should_5_dollars_not_equals_to_null() {
                 assertFalse(new Dollar(5).equals(null));
             }
+
+            @Test
+            void should_5_dollars_not_equals_to_5_france() {
+                assertFalse(new Dollar(5).equals(new France(5)));
+            }
         }
     }
 
