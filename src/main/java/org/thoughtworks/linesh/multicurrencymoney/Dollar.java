@@ -2,19 +2,12 @@ package org.thoughtworks.linesh.multicurrencymoney;
 
 public class Dollar extends Money {
 
-    protected int amount;
-
     public Dollar(int amount) {
-        this.amount = amount;
+        super(amount);
     }
 
     public Dollar times(int multiplier) {
         return new Dollar(this.amount * multiplier);
-    }
-
-    public int getAmount() {
-        // TODO: [Linesh][1/2/17] Currency amount as int?
-        return this.amount;
     }
 
     @Override
