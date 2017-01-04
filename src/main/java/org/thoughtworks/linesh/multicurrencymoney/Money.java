@@ -21,4 +21,8 @@ public class Money {
         Money money = (Money) object;
         return money.getAmount() == this.getAmount();
     }
+
+    public static Dollar dollar(int amount) {
+        return new Dollar(amount);
+    }
 }
