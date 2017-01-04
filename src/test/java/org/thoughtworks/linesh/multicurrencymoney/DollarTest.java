@@ -11,7 +11,7 @@ class DollarTest {
     class should_test_multiplications {
         @Test
         void should_get_10_dollars_when_multiple_2_with_5() {
-            Dollar five = Money.dollar(5);
+            Money five = Money.dollar(5);
 
             // It's actually a risk here that we rely on equality function for tests to work
             assertEquals(Money.dollar(10), five.times(2));
@@ -19,7 +19,7 @@ class DollarTest {
 
         @Test
         void should_get_15_dollars_when_multiple_3_with_5() {
-            Dollar five = Money.dollar(5);
+            Money five = Money.dollar(5);
 
             assertEquals(Money.dollar(15), five.times(3));
         }

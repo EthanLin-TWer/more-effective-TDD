@@ -1,6 +1,6 @@
 package org.thoughtworks.linesh.multicurrencymoney;
 
-public class Money {
+public abstract class Money {
     protected int amount;
 
     public Money(int amount) {
@@ -11,7 +11,9 @@ public class Money {
         // TODO: [Linesh][1/2/17] Currency amount as int?
         return this.amount;
     }
-
+    
+    abstract Money times(int multiplier);
+    
     @Override
     public boolean equals(Object object) {
         // TODO: [Linesh][1/2/17] Implement equality check with different object type
@@ -22,7 +24,7 @@ public class Money {
         return money.getAmount() == this.getAmount();
     }
 
-    public static Dollar dollar(int amount) {
+    public static Money dollar(int amount) {
         return new Dollar(amount);
     }
 }
