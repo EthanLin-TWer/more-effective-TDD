@@ -2,7 +2,7 @@ package org.thoughtworks.linesh.multicurrencymoney;
 
 public class Dollar extends Money {
 
-    public Dollar(int amount) {
+    Dollar(int amount) {
         super(amount);
     }
 

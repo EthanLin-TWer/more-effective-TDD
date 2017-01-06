@@ -2,7 +2,7 @@ package org.thoughtworks.linesh.multicurrencymoney;
 
 // duplicated code of Dollar class and France class
 public class France extends Money{
-    public France(int amount) {
+    France(int amount) {
         super(amount);
     }
     
