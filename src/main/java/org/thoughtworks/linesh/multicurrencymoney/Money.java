@@ -31,4 +31,6 @@ public abstract class Money {
     public static Money france(int amount) {
         return new France(amount);
     }
+
+    public abstract String currency();
 }
