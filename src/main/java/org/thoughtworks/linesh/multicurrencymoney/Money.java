@@ -2,8 +2,9 @@ package org.thoughtworks.linesh.multicurrencymoney;
 
 public abstract class Money {
     protected int amount;
-    public Money(int amount) {
+    public Money(int amount, String currency) {
         this.amount = amount;
+        this.currency = currency;
     }
 
     public int getAmount() {
@@ -14,11 +15,11 @@ public abstract class Money {
     abstract Money times(int multiplier);
 
     public static Money dollar(int amount) {
-        return new Dollar(amount);
+        return new Dollar(amount, "USD");
     }
 
     public static Money france(int amount) {
-        return new France(amount);
+        return new France(amount, "CHF");
     }
 
     @Override
