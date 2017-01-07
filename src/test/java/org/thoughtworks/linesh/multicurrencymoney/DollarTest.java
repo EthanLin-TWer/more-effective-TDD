@@ -26,11 +26,6 @@ class DollarTest {
                 assertFalse(Money.dollar(5).equals(Money.dollar(6)));
                 assertFalse(Money.dollar(5).equals(null));
             }
-            
-            @Test
-            void should_test_different_currency_equality() {
-                assertFalse(Money.dollar(5).equals(Money.france(5)));
-            }
         }
     }
 
