@@ -7,9 +7,5 @@ public class France extends Money{
         super(amount, currency);
     }
     
-    public Money times(int multiplier) {
-        return new Money(this.amount * multiplier, currency);
-    }
-
     // TODO: [Linesh][1/2/17] Implement hashCode() method
 }

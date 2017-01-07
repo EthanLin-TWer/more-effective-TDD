@@ -12,10 +12,6 @@ public class Money {
         return this.amount;
     }
 
-    public Money times(int multiplier) {
-        return null;
-    }
-
     public static Money dollar(int amount) {
         return new Dollar(amount, "USD");
     }
@@ -39,4 +35,8 @@ public class Money {
     }
 
     protected String currency;
+
+    public Money times(int multiplier) {
+        return new Money(this.amount * multiplier, currency);
+    }
 }
