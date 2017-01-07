@@ -27,7 +27,6 @@ dependencies {
     testCompile 'org.mockito:mockito-core:2.1.0-RC.1'
 }
 
-
 idea.project {
     vcs = 'Git'
     jdkName = '1.8'
@@ -37,4 +36,8 @@ idea.project {
 checkstyle {
     toolVersion = '7.3'
     configFile = new File('src/main/config/checkstyle/checkstyle.xml')
+}
+
+junitPlatform {
+    enableStandardTestTask = true
 }
