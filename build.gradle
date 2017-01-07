@@ -6,7 +6,7 @@ buildscript {
 }
 
 plugins {
-    id 'net.saliman.cobertura' version '2.3.2'
+    id 'net.saliman.cobertura' version '2.4.0'
 }
 
 apply plugin: 'java'
@@ -39,5 +39,9 @@ checkstyle {
 }
 
 junitPlatform {
-    enableStandardTestTask = true
+    enableStandardTestTask = true 
+}
+
+cobertura {
+    coverageCheckLineRate = 90
 }
