@@ -13,11 +13,11 @@ public class Money {
     }
 
     public static Money dollar(int amount) {
-        return new Dollar(amount, "USD");
+        return new Money(amount, "USD");
     }
 
     public static Money france(int amount) {
-        return new France(amount, "CHF");
+        return new Money(amount, "CHF");
     }
 
     @Override

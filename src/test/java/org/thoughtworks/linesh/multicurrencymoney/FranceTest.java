@@ -20,14 +20,5 @@ public class FranceTest {
             assertEquals(Money.france(10), five.times(2));
             assertEquals(Money.france(15), five.times(3));
         }
-        
-        @Tasking @Nested
-        class should_test_equality {
-            @Test
-            void should_test_france_equality() {
-                assertTrue(Money.france(5).equals(Money.france(5)));
-                assertFalse(Money.france(5).equals(Money.france(6)));
-            }
-        }
     }
 }
