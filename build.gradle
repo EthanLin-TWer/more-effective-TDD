@@ -47,4 +47,9 @@ cobertura {
     coverageCheckHaltOnFailure = true 
     coverageCheckLineRate = 90
     coverageCheckBranchRate = 90
+    // TODO: [Linesh][1/7/17] Right now JUnit 5 runs test in junitPlatformTest task which is not scanned by cobertura and therefore nothing is coverage-checked.  
+    coverageExcludes = [
+        '.*org.thoughtworks.linesh.fizzbuzzwhizz.*',
+        '.*org.thoughtworks.linesh.multicurrencymoney.*'
+    ]
 }
