@@ -4,7 +4,7 @@ jdk:
 install:
   - ./gradlew assemble --no-daemon
 script:
-  - ./gradlew clean check junitPlatformTest coberturaCheck test--no-daemon
+  - ./gradlew clean check junitPlatformTest coberturaCheck test --no-daemon
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
