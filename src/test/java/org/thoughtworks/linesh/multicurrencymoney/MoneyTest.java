@@ -48,7 +48,11 @@ class MoneyTest {
 
     @Tasking
     @Nested
-    class should_add_two_different_kinds_of_currency_given_exchange_rate {
-
+    class should_test_simple_addition {
+        @Test
+        void should_get_10_dollars_when_adding_5_dollars_with_5_dollars() {
+            Money sum = Money.dollar(5).plus(Money.dollar(5));
+            assertEquals(Money.dollar(10), sum);
+        }
     }
 }
