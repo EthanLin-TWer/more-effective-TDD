@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 import support.Tasking;
 
+import java.lang.reflect.Field;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MoneyTest {
@@ -56,6 +58,16 @@ class MoneyTest {
             Bank bank = new Bank();
             Money reduced = bank.reduced(sum, "USD");
             assertEquals(Money.dollar(10), reduced);
+        }
+
+        @Test
+        void should_test_our_assumptions_here() {
+            Money fiveDollars = Money.dollar(5);
+            Expression result = fiveDollars.plus(fiveDollars);
+            Sum sum = (Sum) result;
+            
+            assertEquals(fiveDollars, sum.augend);
+            assertEquals(fiveDollars, sum.addend);
         }
     }
 }
