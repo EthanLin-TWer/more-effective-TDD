@@ -28,7 +28,7 @@ Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务�
 
 ### Tasking/Todolist as Code 任务分解即代码
 
-借用了 CI/CD 的说法：基础设施即代码。使用 JUnit 5 的 `@Nested` 特性，你可以把代码外的 tasking/列todolist 直接映射到代码层来。你不必等到所有测试用例出来以后才开始写代码，相反在得到任务列表之后就已经可以开始使用代码 `@Todo` 来描述了；而正在进行中的任务可以使用 `@Tasking` 来注解，用于标识其下的所有测试用例都归属于这个任务。你可以参考 [这个](https://github.com/linesh-simplicity/bravo-tdd-test-driven-development/blob/master/src/test/java/org/thoughtworks/linesh/fizzbuzzwhizz/StudentTest.java) 测试类。
+借用了 CI/CD 的说法：基础设施即代码。使用 JUnit 5 的 `@Nested` 特性，你可以把代码外的 tasking/列todolist 直接映射到代码层来。你不必等到所有测试用例出来以后才开始写代码，相反在得到任务列表之后就已经可以开始使用代码 `@Todo` 来描述了；而正在进行中的任务可以使用 `@Tasking` 来注解，用于标识其下的所有测试用例都归属于这个任务。你可以参考 [这个](https://github.com/linesh-simplicity/tdd-methodology-and-deliberate-practice/blob/master/src/test/java/org/thoughtworks/linesh/fizzbuzzwhizz/StudentTest.java) 测试类。
 
 ### Refactor: Todo system with Intellij 重构：巧用 Intellij TODO 系统
 
@@ -64,13 +64,15 @@ Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务�
 * Java 8 & Lambda
 * JUnit 5 with Mockito
 * Gradle 3.2.1(With gradle daemon enabled by default)
+* Checkstyle & Cobertura
 
 ## 运行项目
 
-* 安装：`git clone git@github.com:linesh-simplicity/bravo-tdd-test-driven-development.git`
+* 安装：`git clone git@github.com:linesh-simplicity/tdd-methodology-and-deliberate-practice.git`
 * 依赖安装：`./gradlew clean build --refresh-dependencies`
 * 运行 checkstyle：`./gradlew check`
 * 运行所有测试：`./gradlew clean junitPlatformTest`
+* 运行覆盖率检查：`./gradlew clean coberturaCheck test`
 
 ## 参考
 
@@ -80,7 +82,8 @@ Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务�
 * [伍斌：驯服烂代码](https://book.douban.com/subject/26208707/)
 * [GoF：设计模式-可复用面向对象软件的基础](https://book.douban.com/subject/1052241/)
 * [Martin Fowler/Jeff Xiong：重构-改善既有代码的设计](https://book.douban.com/subject/4262627/)
-* [Joshua Kerievsky: 重构与模式](https://book.douban.com/subject/20393327/)
+* [Joshua Kerievsky：重构与模式](https://book.douban.com/subject/20393327/)
+* [Robert C.Martin：代码整洁之道](https://book.douban.com/subject/4199741/)
 
 ### 论战
 
