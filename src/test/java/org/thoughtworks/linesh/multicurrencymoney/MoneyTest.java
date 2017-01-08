@@ -51,8 +51,11 @@ class MoneyTest {
     class should_test_simple_addition {
         @Test
         void should_get_10_dollars_when_adding_5_dollars_with_5_dollars() {
-            Money sum = Money.dollar(5).plus(Money.dollar(5));
-            assertEquals(Money.dollar(10), sum);
+            Money fiveDollars = Money.dollar(5);
+            Expression sum = fiveDollars.plus(fiveDollars);
+            Bank bank = new Bank();
+            Money reduced = bank.reduced(sum, "USD");
+            assertEquals(Money.dollar(10), reduced);
         }
     }
 }

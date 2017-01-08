@@ -1,6 +1,6 @@
 package org.thoughtworks.linesh.multicurrencymoney;
 
-public class Money {
+public class Money implements Expression {
     protected int amount;
     public Money(int amount, String currency) {
         this.amount = amount;
@@ -40,7 +40,9 @@ public class Money {
         return new Money(this.amount * multiplier, currency);
     }
 
-    public Money plus(Money addend) {
-        return Money.dollar(this.amount + addend.getAmount());
+
+    @Override
+    public Expression plus(Money money) {
+        return Money.dollar(this.amount + money.getAmount());
     }
 }
