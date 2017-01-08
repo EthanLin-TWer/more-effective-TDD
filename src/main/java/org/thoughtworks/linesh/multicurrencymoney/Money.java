@@ -41,6 +41,6 @@ public class Money {
     }
 
     public Money plus(Money addend) {
-        return Money.dollar(10);
+        return Money.dollar(this.amount + addend.getAmount());
     }
 }
