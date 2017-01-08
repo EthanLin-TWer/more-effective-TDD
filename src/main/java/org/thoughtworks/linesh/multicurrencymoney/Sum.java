@@ -5,8 +5,8 @@ public class Sum implements Expression {
     public Money addend;
 
     public Sum(Money augend, Money addend) {
-        this.augend = Money.dollar(5);
-        this.addend = Money.dollar(5);
+        this.augend = augend;
+        this.addend = addend;
     }
 
     @Override
