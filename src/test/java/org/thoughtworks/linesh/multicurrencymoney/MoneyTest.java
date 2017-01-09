@@ -64,8 +64,8 @@ class MoneyTest {
             Expression result = fiftyDollars.plus(fiftyDollars);
             Sum sum = (Sum) result;
             
-            assertEquals(fiftyDollars, sum.augend);
-            assertEquals(fiftyDollars, sum.addend);
+            assertEquals(fiftyDollars, sum.getAugend());
+            assertEquals(fiftyDollars, sum.getAddend());
         }
     }
 }

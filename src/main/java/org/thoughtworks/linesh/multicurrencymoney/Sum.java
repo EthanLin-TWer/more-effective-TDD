@@ -1,8 +1,8 @@
 package org.thoughtworks.linesh.multicurrencymoney;
 
 public class Sum implements Expression {
-    public Money augend;
-    public Money addend;
+    private Money augend;
+    private Money addend;
 
     public Sum(Money augend, Money addend) {
         this.augend = augend;
@@ -12,5 +12,13 @@ public class Sum implements Expression {
     @Override
     public Expression plus(Money money) {
         return null;
+    }
+
+    public Money getAugend() {
+        return augend;
+    }
+
+    public Money getAddend() {
+        return addend;
     }
 }
