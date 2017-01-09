@@ -13,7 +13,13 @@ public class Sum implements Expression {
     public Expression plus(Money money) {
         return null;
     }
-
+    
+    public Money reduced(Expression source, String to) {
+        int amount = augend.getAmount() + addend.getAmount();
+        // TODO: [Linesh][1/9/17] Currency is not used 
+        return Money.dollar(amount);
+    }
+    
     public Money getAugend() {
         return augend;
     }
