@@ -75,5 +75,12 @@ class MoneyTest {
             Money result = bank.reduced(sum, "USD");
             assertEquals(Money.dollar(11), result);
         }
+
+        @Test
+        void should_test_bank_behaviour() {
+            Bank bank = new Bank();
+            Money result = bank.reduced(Money.dollar(8), "USD");
+            assertEquals(Money.dollar(8), result);
+        }
     }
 }
