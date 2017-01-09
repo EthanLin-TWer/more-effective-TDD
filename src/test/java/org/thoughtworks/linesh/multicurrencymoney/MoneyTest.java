@@ -67,5 +67,13 @@ class MoneyTest {
             assertEquals(fiftyDollars, sum.getAugend());
             assertEquals(fiftyDollars, sum.getAddend());
         }
+
+        @Test
+        void should_test_sum_behaviour() {
+            Expression sum = new Sum(Money.dollar(5), Money.dollar(6));
+            Bank bank = new Bank();
+            Money result = bank.reduced(sum, "USD");
+            assertEquals(Money.dollar(11), result);
+        }
     }
 }
