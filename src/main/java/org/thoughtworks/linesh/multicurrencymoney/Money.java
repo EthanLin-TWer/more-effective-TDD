@@ -46,7 +46,7 @@ public class Money implements Expression {
     }
 
     @Override
-    public Money reduced(String currency) {
+    public Money reduce(String currency) {
         return this;
     }
 }

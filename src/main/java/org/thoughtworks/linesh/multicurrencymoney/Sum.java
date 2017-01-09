@@ -14,7 +14,7 @@ public class Sum implements Expression {
         return null;
     }
     
-    public Money reduced(String to) {
+    public Money reduce(String to) {
         int amount = augend.getAmount() + addend.getAmount();
         // TODO: [Linesh][1/9/17] Currency is not used 
         return Money.dollar(amount);
