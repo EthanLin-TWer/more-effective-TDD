@@ -1,4 +1,4 @@
-package org.thoughtworks.linesh.fizzbuzzwhizz;
+package tdd.howto.linesh.tw.fizzbuzzwhizz;
 
 public class SpecialNumber {
     private int first;

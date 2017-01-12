@@ -1,4 +1,4 @@
-package org.thoughtworks.linesh.fizzbuzzwhizz;
+package tdd.howto.linesh.tw.fizzbuzzwhizz;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

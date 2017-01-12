@@ -1,4 +1,4 @@
-package org.thoughtworks.linesh.multicurrencymoney;
+package tdd.howto.linesh.tw.multicurrencymoney;
 
 public class Money implements Expression {
     protected int amount;

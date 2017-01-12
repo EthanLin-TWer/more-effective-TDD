@@ -1,4 +1,4 @@
-package org.thoughtworks.linesh.fizzbuzzwhizz;
+package tdd.howto.linesh.tw.fizzbuzzwhizz;
 
 public class GameRuleConfig {
     // TODO: [Linesh][12/3/16] Checkout REFACTOR to see how to migrate fields to another class

@@ -1,4 +1,4 @@
-package org.thoughtworks.linesh.multicurrencymoney;
+package tdd.howto.linesh.tw.multicurrencymoney;
 
 public class Sum implements Expression {
     private Money augend;

@@ -1,4 +1,4 @@
-package org.thoughtworks.linesh.multicurrencymoney;
+package tdd.howto.linesh.tw.multicurrencymoney;
 
 public class Bank {
     public Money reduced(Expression money, String toCurrency) {

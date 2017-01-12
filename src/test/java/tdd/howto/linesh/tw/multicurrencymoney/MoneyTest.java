@@ -1,4 +1,4 @@
-package org.thoughtworks.linesh.multicurrencymoney;
+package tdd.howto.linesh.tw.multicurrencymoney;
 
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
