@@ -138,11 +138,20 @@
 ### Best Materials 最精华资料
 
 * [Kent Beck: Test Driven Development by Example](https://book.douban.com/subject/1230036/)
+* [仝健：编程的精进之法](https://www.zybuluo.com/jtong/note/504192)
+* [仝健：像机器一样思考（系列）](https://www.zybuluo.com/jtong/note/403738)
+  * [像机器一样思考（一）—— 宏观的基础](https://www.zybuluo.com/jtong/note/403738)
+  * [像机器一样思考（二）—— 数据的细节](https://www.zybuluo.com/jtong/note/471501)
+  * [像机器一样思考（三）—— 穷尽就是力量](https://www.zybuluo.com/jtong/note/473123)
+  * [像机器一样思考（四）—— 一图抵千言](https://www.zybuluo.com/jtong/note/774931)
+  * [像机器一样思考（五）—— 第一个应用](https://www.zybuluo.com/jtong/note/640178)
+  * [像机器一样思考（六） —— 脑中的重构](https://www.zybuluo.com/jtong/note/641148)
+  * [像机器一样思考（七） —— 跨应用思考](https://www.zybuluo.com/jtong/note/480426)
 * [伍斌：驯服烂代码](https://book.douban.com/subject/26208707/)
-* [GoF：设计模式-可复用面向对象软件的基础](https://book.douban.com/subject/1052241/)
 * [Martin Fowler/Jeff Xiong：重构-改善既有代码的设计](https://book.douban.com/subject/4262627/)
-* [Joshua Kerievsky：重构与模式](https://book.douban.com/subject/20393327/)
 * [Robert C.Martin：代码整洁之道](https://book.douban.com/subject/4199741/)
+* [GoF：设计模式-可复用面向对象软件的基础](https://book.douban.com/subject/1052241/)
+* [Joshua Kerievsky：重构与模式](https://book.douban.com/subject/20393327/)
 
 ### Argues 论战
 
