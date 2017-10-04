@@ -3,3 +3,6 @@
 *.ipr
 *.iml
 *.iws
+
+# Node package management
+node_modules
