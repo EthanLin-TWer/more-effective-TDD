@@ -14,12 +14,34 @@
     "eslint-config-airbnb-base": "^12.0.1",
     "eslint-plugin-import": "^2.7.0",
     "mocha": "^4.0.0",
+    "nyc": "^11.2.1",
     "power-assert": "^1.4.4",
     "sinon": "^4.0.1"
   },
   "scripts": {
     "lint": "eslint src test",
-    "test": "mocha --require babel-register test/**/*.(test|spec).js"
+    "test": "nyc mocha",
+    "report": "nyc report"
+  },
+  "nyc": {
+    "require": [
+      "babel-register"
+    ],
+    "check-coverage": true,
+    "lines": 90,
+    "statements": 90,
+    "functions": 90,
+    "branches": 90,
+    "include": [
+      "src/**/*.test.js",
+      "src/**/*.spec.js"
+    ],
+    "watermarks": {
+      "lines": [85, 95],
+      "statements": [85, 95],
+      "functions": [85, 95],
+      "branches": [85, 95]
+    }
   },
   "repository": {
     "type": "git",

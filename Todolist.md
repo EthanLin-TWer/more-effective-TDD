@@ -6,6 +6,6 @@
     * [x] runner - mocha 
     * [x] assertion - power assert 
     * [x] mock library 
-  * lint
-  * 覆盖率
+  * [x] lint
+  * [x] 覆盖率
   * CI
