@@ -20,8 +20,8 @@
   },
   "scripts": {
     "lint": "eslint src test",
-    "test": "nyc mocha",
-    "coverageReport": "nyc report"
+    "test": "mocha --require babel-register test/**/*.spec.js",
+    "report": "nyc npm test"
   },
   "nyc": {
     "require": [
@@ -33,7 +33,6 @@
     "functions": 90,
     "branches": 90,
     "include": [
-      "src/**/*.test.js",
       "src/**/*.spec.js"
     ],
     "watermarks": {
