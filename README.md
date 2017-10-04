@@ -116,26 +116,22 @@
 * 重构
 * 设计模式
 
-## Confusion
+## Tech Stack & Credits
 
-* TDD 只是个人的方法论工具吗？对项目来说有无其价值？
-* 何时查看 Todolist？
-* 是否需要做到 每次实现刚好实现测试代码？意义？这是否意味着清晰知道测试的边界？
-
-## 技术栈（Tech Stack）
-
-* Java 8 & Lambda
-* JUnit 5 with Mockito
-* Gradle 3.2.1(With gradle daemon enabled by default)
-* Checkstyle & Cobertura
+* JavaScript ES6 & ES7(transpiled with [@babel][])
+* WebStorm [@webstorm][]
+* [ESLint][]
+* [Mocha][], [power-assert][] and [sinon][]
+* [istanbul][] / nyc
+* [Travis CI][]
 
 ## 运行项目
 
-* 安装：`git clone git@github.com:linesh-simplicity/tdd-methodology-and-deliberate-practice.git`
-* 依赖安装：`./gradlew clean build --refresh-dependencies`
-* 运行 checkstyle：`./gradlew check`
-* 运行所有测试：`./gradlew clean junitPlatformTest`
-* 运行覆盖率检查：`./gradlew clean coberturaCheck test`
+* 安装：`git clone git@github.com:linesh-simplicity/elegant-tdd.git`
+* 依赖安装：`npm install`
+* 运行 checkstyle：`npm run lint`
+* 运行所有测试：`npm test`
+* 运行覆盖率检查：`npm report`
 
 ## 参考
 
@@ -176,3 +172,11 @@
 
 [Badges: Travis CI]: https://travis-ci.org/linesh-simplicity/elegant-TDD.svg?branch=master
 [Links: Travis CI]: https://travis-ci.org/linesh-simplicity/elegant-TDD
+[@babel]: https://babeljs.io/
+[@webstorm]: https://www.jetbrains.com/webstorm/
+[ESLint]: https://eslint.org/
+[Mocha]: https://mochajs.org/
+[power-assert]: https://github.com/power-assert-js/power-assert
+[sinon]: http://sinonjs.org/
+[istanbul]: https://istanbul.js.org/
+[Travis CI]: https://travis-ci.org/
