@@ -4,7 +4,7 @@
 > 
 > Oct 5, 2017
 
-## TDD（不）是什么
+## What is(is not) TDD / TDD（不）是什么
 
 关于 TDD 是什么及不是什么的问题，文字之辩未免无力，将目前的结论总结如下，请放到实践的视角下来看它。TDD 需要其他设施的支撑，如任务分解、自动化测试、重构等，这里厘清下它们关系：
 
@@ -16,11 +16,11 @@
 
 另外则是 TDD 不是什么的问题。大熊说，非彼无我，非我无所取。既然这个「我」是指「高效拆分问题、快速反馈、自动化验证」，那么「彼」自然是除此以外的所有东西，比如代码质量，比如设计质量。还是那句话，如果你不知道何谓好的代码，那你该去看书多撸码学习；如果你不知道什么是好的设计，自然别指望一种方法论能帮你学会设计本身。TDD 能做的是把你脑中之物更清晰地表达、更高效地实现出来，脑中若无物，正确方式应是赶紧补补。
 
-## TDD 的关节 
+## Key of TDD / TDD 的关节 
 
 我认为 TDD 其内涵不是也远广于类似「红绿循环」此类口诀，但关节要点却十分明快，无非两样技术：**任务分解** 与 **快速反馈**，其中每样技术都可辅以刻意练习的方式来提高。
 
-### 任务分解
+### Tasking / 任务分解
 
 任务分解是 TDD 的前置条件，TDD 需要的测试用例要从这里来。新人刚拿到一个编程任务时，很容易陷入细节不知所止，或者觉得心里没底不知道怎么做，不知道要做多久。其本质上是对工作任务（及自己状态）的混沌、不可见。通过任务分解的方式，强迫你去将大的任务**完全穷尽**地分解成**独立**的子问题，最后所得列表即唯一确定地描述了工作任务本身，帮助你将内在混沌的思路可视化出来。
 
@@ -91,11 +91,11 @@
   * [ ] 「订单详情」页样式
 ```
 
-## 快速反馈
+## Feedback in a quicker way / 快速反馈
 
 待写。
 
-## Key&Methods of design 设计的道与术
+## Key & Methods of design 设计的道与术
 
 怎么样算是好的设计呢？首先要问，为什么要设计，它旨在解决/应对什么问题？回答是，**变化**。其实整个 TDD 的核心理念基础，也是认定变化必然、频繁存在。因此我们通过**减少无效未来需求**和**减少变化发生时带来的变更成本**两种方式来应对。TDD 顺便解决了第一个问题，而设计则是为了要解决第二个问题。
 
@@ -116,7 +116,7 @@
 * 重构
 * 设计模式
 
-## Tech Stack & Credits
+## Tech Stack & Credits 技术栈 与 道谢
 
 * JavaScript ES6 & ES7(transpiled with [@babel][])
 * WebStorm [@webstorm][]
@@ -125,7 +125,7 @@
 * [istanbul][] / nyc
 * [Travis CI][]
 
-## 运行项目
+## Getting Started 运行项目
 
 * 安装：`git clone git@github.com:linesh-simplicity/elegant-tdd.git`
 * 依赖安装：`npm install`
@@ -133,9 +133,9 @@
 * 运行所有测试：`npm test`
 * 运行覆盖率检查：`npm report`
 
-## 参考
+## Reference 参考
 
-### TDD 体系最精华资料
+### Best Materials 最精华资料
 
 * [Kent Beck: Test Driven Development by Example](https://book.douban.com/subject/1230036/)
 * [伍斌：驯服烂代码](https://book.douban.com/subject/26208707/)
@@ -144,31 +144,20 @@
 * [Joshua Kerievsky：重构与模式](https://book.douban.com/subject/20393327/)
 * [Robert C.Martin：代码整洁之道](https://book.douban.com/subject/4199741/)
 
-### 论战
+### Argues 论战
 
 * [TDD 并不是看上去的那么美 - CoolShell](http://coolshell.cn/articles/3649.html)
 * [虚拟座谈会：TDD 有多美 - infoq](http://www.infoq.com/cn/articles/virtual-panel-tdd)
 * [Todd Wei: TDD 到底美不美 - cnblogs](http://www.cnblogs.com/weidagang2046/archive/2011/02/23/1963277.html)
 * [逸言: 推行 TDD 的思考](http://agiledon.github.io/blog/2013/12/25/thought-about-applying-tdd/)
-* Martin Fowler&Kent Beck&DHH: Is TDD Dead? Series
+* Martin Fowler & Kent Beck & DHH: Is TDD Dead? Series
     * [Is TDD Dead? Part I](https://www.youtube.com/watch?v=z9quxZsLcfo)
     * [Is TDD Dead? Part II](https://www.youtube.com/watch?v=JoTB2mcjU7w)
     * [Is TDD Dead? Part III](https://www.youtube.com/watch?v=YNw4baDz6WA)
     * [Is TDD Dead? Part IV](https://www.youtube.com/watch?v=dGtasFJnUxI)
     * [Is TDD Dead? Part V & VI](https://www.youtube.com/watch?v=gWD6REVeKW4)
 
-### JUnit 5
-
-* [Junit 5 Gradle 插件示例代码](https://github.com/junit-team/junit5-samples/tree/master/junit5-gradle-consumer)
-* [JUnit 5 官方文档](http://junit.org/junit5/docs/current/user-guide/)
-* [Junit 5 With Mockito](https://github.com/junit-team/junit5-samples/tree/master/junit5-mockito-extension)
-* [Intellij 2016.3.1 RC: Support for JUnit 5 M3](https://blog.jetbrains.com/idea/2016/12/intellij-idea-2016-3-1-is-out/)。JUnit 5 M3 是11月30号发布的版本，由于其包含了不向下兼容的 API 改变，同时间 Intellij 并不能支持运行 JUnit 5 M3 的测试。12月1号这个问题被加入[Issue Tracker](https://youtrack.jetbrains.com/issue/IDEA-164865)，12月2号在2016.3.1 2017.1版本中修复，12月13号在2016.3.1 RC 这个发布版中开始支持 JUnit 5 M3。即是说，2016.3.1 RC 以后的 Intellij 版本才能使用 JUnit 5 M3；若要使用 JUnit 5 M2 及之前版本，必须切回到 2016.3 或以前的 Intellij 版本。
-
-### Misc
-
-* [使用 shields.io 创建 Travis 图标](http://shields.io/)
-* [如何使用 travis 提供的 badges 图标](https://docs.travis-ci.com/user/status-images/)
-
+---
 
 [Badges: Travis CI]: https://travis-ci.org/linesh-simplicity/elegant-TDD.svg?branch=master
 [Links: Travis CI]: https://travis-ci.org/linesh-simplicity/elegant-TDD
