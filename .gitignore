@@ -9,3 +9,4 @@ node_modules
 
 # Test coverage report
 .nyc_output
+coverage
