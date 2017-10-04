@@ -16,7 +16,9 @@
 
 另外则是 TDD 不是什么的问题。大熊说，非彼无我，非我无所取。既然这个「我」是指「高效拆分问题、快速反馈、自动化验证」，那么「彼」自然是除此以外的所有东西，比如代码质量，比如设计质量。还是那句话，如果你不知道何谓好的代码，那你该去看书多撸码学习；如果你不知道什么是好的设计，自然别指望一种方法论能帮你学会设计本身。TDD 能做的是把你脑中之物更清晰地表达、更高效地实现出来，脑中若无物，正确方式应是赶紧补补。
 
-## TDD Techniques 
+## TDD 的关节 
+
+我认为 TDD 其内涵不是也远广于类似「红绿循环」此类口诀，但关节要点却十分明快，无非两样技术：**任务分解** 与 **快速反馈**，其中每样技术都可辅以刻意练习的方式来提高。
 
 ### Tasking 任务分解
 
@@ -115,5 +117,5 @@ Tasking 是 TDD 的第一步，你拿到需求了，明确了，如何把任务�
 * [如何使用 travis 提供的 badges 图标](https://docs.travis-ci.com/user/status-images/)
 
 
-[Badges: Travis CI]: https://travis-ci.org/linesh-simplicity/TDD-methodology-and-deliberate-practice.svg?branch=master
-[Links: Travis CI]: https://travis-ci.org/linesh-simplicity/TDD-methodology-and-deliberate-practice
+[Badges: Travis CI]: https://travis-ci.org/linesh-simplicity/elegant-TDD.svg?branch=master
+[Links: Travis CI]: https://travis-ci.org/linesh-simplicity/elegant-TDD
