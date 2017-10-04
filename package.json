@@ -21,7 +21,7 @@
   "scripts": {
     "lint": "eslint src test",
     "test": "nyc mocha",
-    "report": "nyc report"
+    "coverageReport": "nyc report"
   },
   "nyc": {
     "require": [
