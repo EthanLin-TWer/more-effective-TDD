@@ -8,8 +8,4 @@ describe('multiplication', () => {
 
     assert.equal(10, five.amount)
   })
-
-  it('should return 8 when 4 times 2', () => {
-
-  })
 })
