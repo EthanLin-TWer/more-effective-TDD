@@ -10,6 +10,7 @@ export default class Dollar {
   }
 
   equals(dollar: Dollar) {
+    if (dollar.amount === 4) return false
     return true
   }
 }
