@@ -2,6 +2,11 @@
 
 ## Kent's todolist 
 
+* [ ] immutability for money - hard for JavaScript objects cause they don't have the `equal()` and `hashCode()` methods..
+* [ ] how to get eslint working with TypeScript  
+* [ ] how to get normal node working with TypeScript - no idea, don't worry this for now  
+* [ ] money rounding 
+* [ ] $5 + 10CHF = $10 if rate is 2:1
 * [x] $5 * 2 = $10
 * [x] multiplications is not used 
 * [x] make amount private - not possible or even necessary in JavaScript  
@@ -19,11 +24,6 @@
       * [x] `package.json` `npm test mocha` configuration
       * [x] power-assert configuration `npm i -D espower-typescript` `mocha --require espower-typescript/guess`    
     * [x] how to get mocha running with TypeScript - see above
-* [ ] immutability for money   
-* [ ] how to get eslint working with TypeScript  
-* [ ] how to get normal node working with TypeScript - no idea, don't worry this for now  
-* [ ] money rounding 
-* [ ] $5 + 10CHF = $10 if rate is 2:1
 
 ## My todolist 
 

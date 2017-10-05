@@ -16,3 +16,9 @@ describe('multiplication', () => {
     assert.equal(15, result.amount)
   })
 })
+
+describe('money equality', () => {
+  it('should return true when asking if $5 equals $5', () => {
+    assert.equal(new Dollar(5).equals(new Dollar(5)), true)
+  })
+})

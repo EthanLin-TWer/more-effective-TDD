@@ -8,4 +8,8 @@ export default class Dollar {
   times(multiplications: number) {
     return new Dollar(this.amount * multiplications)
   }
+
+  equals(dollar: Dollar) {
+    return true
+  }
 }
