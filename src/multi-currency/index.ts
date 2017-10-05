@@ -10,6 +10,8 @@ export default class Dollar {
   }
 
   equals(dollar: Dollar) {
+    if (dollar === null) return false
+
     return this.amount === dollar.amount
   }
 }

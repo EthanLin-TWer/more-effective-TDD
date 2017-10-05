@@ -25,4 +25,8 @@ describe('money equality', () => {
   it('should return false when asking if $5 equals $4', () => {
     assert.equal(new Dollar(5).equals(new Dollar(4)), false)
   })
+
+  it('should return false when comparing with null money', () => {
+    assert.equal(new Dollar(5).equals(null), false)
+  })
 })
