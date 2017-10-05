@@ -8,4 +8,11 @@ describe('multiplication', () => {
 
     assert.equal(10, result.amount)
   })
+
+  it('should return 15 when 5 times 3', () => {
+    const five = new Dollar(5)
+    const result = five.times(3)
+
+    assert.equal(15, result.amount)
+  })
 })

@@ -5,8 +5,8 @@
 * [x] $5 * 2 = $10
 * [x] multiplications is not used 
 * [x] make amount private - not possible or even necessary in JavaScript  
-* [ ] directly settings the class fields
-* [ ] dollar side effects 
+* [x] directly settings the class fields
+* [x] dollar side effects 
 * [ ] money rounding 
 * [ ] $5 + 10CHF = $10 if rate is 2:1
 
@@ -62,3 +62,4 @@ TDD 的一般步骤，教主原话：
 其要义在于，一次只做一件事。为什么这个事情重要？因为人脑天然的限制吧。既然你没法一次写出能工作的好代码，那么就分而治之，先让它能工作，再重构成好代码。
 
 
+ 
