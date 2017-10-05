@@ -6,7 +6,8 @@
 * [x] multiplications is not used 
 * [x] make amount private - not possible or even necessary in JavaScript  
 * [x] directly settings the class fields
-* [x] dollar side effects 
+* [x] dollar side effects
+* [ ] design issue - immutable could bring benefits in this case: money don't need to be identically equal, they just need to have value equality   
 * [ ] money rounding 
 * [ ] $5 + 10CHF = $10 if rate is 2:1
 
