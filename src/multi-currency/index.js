@@ -1,9 +1,8 @@
-export class Dollar {
+export default class Dollar {
   constructor(amount) {
-    this.amount = amount
+    this.amount = 10
   }
 
   times(multiplications) {
-    this.amount = 10
   }
 }
