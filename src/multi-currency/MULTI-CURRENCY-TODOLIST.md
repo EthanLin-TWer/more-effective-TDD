@@ -2,13 +2,17 @@
 
 ## Kent's todolist 
 
-* [ ] how to get eslint working with TypeScript  
 * [ ] how to get normal node working with TypeScript - no idea, don't worry this for now  
 * [ ] money rounding 
 * [ ] $5 + 10CHF = $10 if rate is 2:1
 * [ ] `hashCode()` - for Java version only
 * [ ] money object comparison with different currency
 * [ ] a risk? that multiplication function uses - thus relied on - the equality check functionality to make itself more expressive 
+* [ ] how to get eslint working with TypeScript
+  * should I commit generated `.js` files?
+  * where should I locate the generated `.js` files? 
+  * are those generated `.js` files part of the committed changes to git? 
+* [x] introduce tslint for typed js linting   
 * [x] make tests speak - can only be done in Java through the built-in `equal()` hook for equality comparison, wonderful Java  
 * [x] null money object comparison
 * [x] `equals()` immutability for money - hard for JavaScript objects cause they don't have the `equal()` and `hashCode()` methods..
