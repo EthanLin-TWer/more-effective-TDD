@@ -177,6 +177,9 @@
 * [TDD 周报五「TDD 是敏捷实践的灵魂」 #179](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/179)
 * [TDD 周报六「结语 - 我们为什么不用 TDD」 #181](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/181)
 
+### Inspirations 其他
+
+* [李小波：深度解读测试驱动开发](http://gitbook.cn/books/58c2ac77306e988f12697f16/index.html)
 
 ---
 
