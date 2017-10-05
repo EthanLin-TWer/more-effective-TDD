@@ -7,6 +7,8 @@
 * [ ] money rounding 
 * [ ] $5 + 10CHF = $10 if rate is 2:1
 * [ ] `hashCode()` - for Java version only
+* [ ] money object comparison with different currency
+* [x] null money object comparison
 * [x] `equals()` immutability for money - hard for JavaScript objects cause they don't have the `equal()` and `hashCode()` methods..
 * [x] $5 * 2 = $10
 * [x] multiplications is not used 
