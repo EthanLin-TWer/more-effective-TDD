@@ -7,7 +7,7 @@ it('multiplication', () => {
 })
 
 it('money equality', () => {
-  assert.equal(new Dollar(5).equals(new Dollar(5)), true)
+  assert(new Dollar(5).equals(new Dollar(5)))
   assert.equal(new Dollar(5).equals(new Dollar(4)), false)
   assert.equal(new Dollar(5).equals(null), false)
 })
