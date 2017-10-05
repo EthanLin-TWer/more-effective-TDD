@@ -8,6 +8,7 @@
 * [ ] $5 + 10CHF = $10 if rate is 2:1
 * [ ] `hashCode()` - for Java version only
 * [ ] money object comparison with different currency
+* [x] make tests speak - can only be done in Java through the built-in `equal()` hook for equality comparison, wonderful Java  
 * [x] null money object comparison
 * [x] `equals()` immutability for money - hard for JavaScript objects cause they don't have the `equal()` and `hashCode()` methods..
 * [x] $5 * 2 = $10
