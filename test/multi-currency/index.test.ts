@@ -1,4 +1,4 @@
-import assert from 'assert'
+import * as assert from 'assert'
 import Dollar from '../../src/multi-currency'
 
 describe('multiplication', () => {

@@ -4,6 +4,8 @@
   "description": "Everything about TDD.",
   "main": "index.js",
   "devDependencies": {
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.32",
     "babel-core": "^6.26.0",
     "babel-plugin-espower": "^2.3.2",
     "babel-preset-env": "^1.6.0",
@@ -13,14 +15,16 @@
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.1",
     "eslint-plugin-import": "^2.7.0",
+    "espower-typescript": "^8.1.1",
     "mocha": "^4.0.0",
     "nyc": "^11.2.1",
     "power-assert": "^1.4.4",
-    "sinon": "^4.0.1"
+    "sinon": "^4.0.1",
+    "typescript": "^2.5.3"
   },
   "scripts": {
     "lint": "eslint src test",
-    "test": "mocha --require babel-register test/**/*.test.js",
+    "test": "mocha --require espower-typescript/guess --require babel-register test/**/*.test.ts",
     "report": "nyc npm test"
   },
   "nyc": {

@@ -7,7 +7,21 @@
 * [x] make amount private - not possible or even necessary in JavaScript  
 * [x] directly settings the class fields
 * [x] dollar side effects
-* [ ] design issue - immutable could bring benefits in this case: money don't need to be identically equal, they just need to have value equality   
+* [x] design issue - immutable could bring benefits in this case: money don't need to be identically equal, they just need to have value equality
+  * [x] in order for that, we will need a typing system and in this case, TypeScript
+    * [x] what libraries are required to use TypeScript
+      * [x] typescript
+      * [x] ts-node
+      * [x] definitions for mocha `npm i -D @types/mocha`
+      * [x] definitions for assert? `npm i -D @types/node` 
+    * [x] what configurations are required to use TypeScript
+      * [x] `tsconfig.json` - `target: es6` & `allowSyntheticDefaultImports` 这些是要小步前进才能试出来的
+      * [x] `package.json` `npm test mocha` configuration
+      * [x] power-assert configuration `npm i -D espower-typescript` `mocha --require espower-typescript/guess`    
+    * [x] how to get mocha running with TypeScript - see above
+* [ ] immutability for money   
+* [ ] how to get eslint working with TypeScript  
+* [ ] how to get normal node working with TypeScript - no idea, don't worry this for now  
 * [ ] money rounding 
 * [ ] $5 + 10CHF = $10 if rate is 2:1
 
@@ -64,5 +78,5 @@ TDD 的一般步骤，教主原话：
 
 其要义在于，一次只做一件事。为什么这个事情重要？因为人脑天然的限制吧。既然你没法一次写出能工作的好代码，那么就分而治之，先让它能工作，再重构成好代码。
 
-
+项目配置也要小步前进。学习了。
  
