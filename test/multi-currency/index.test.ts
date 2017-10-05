@@ -1,20 +1,11 @@
 import * as assert from 'assert'
 import Dollar from '../../src/multi-currency'
 
-describe('multiplication', () => {
-  it('should return 10 when 5 times 2', () => {
-    const five = new Dollar(5)
-    const product = five.times(2)
+it('multiplication', () => {
+  const five = new Dollar(5)
 
-    assert(product.equals(new Dollar(10)))
-  })
-
-  it('should return 15 when 5 times 3', () => {
-    const five = new Dollar(5)
-    const product = five.times(3)
-
-    assert(product.equals(new Dollar(15)))
-  })
+  assert(five.times(2).equals(new Dollar(10)))
+  assert(five.times(3).equals(new Dollar(15)))
 })
 
 describe('money equality', () => {
