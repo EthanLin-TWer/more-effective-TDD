@@ -5,7 +5,9 @@
 * [x] $5 * 2 = $10
 * [x] multiplications is not used 
 * [x] make amount private - not possible or even necessary in JavaScript  
-* [ ] directly settings the class fields 
+* [ ] directly settings the class fields
+* [ ] dollar side effects 
+* [ ] money rounding 
 * [ ] $5 + 10CHF = $10 if rate is 2:1
 
 ## My todolist 
