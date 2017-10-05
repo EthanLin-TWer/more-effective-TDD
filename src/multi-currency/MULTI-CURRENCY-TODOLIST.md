@@ -8,6 +8,7 @@
 * [ ] $5 + 10CHF = $10 if rate is 2:1
 * [ ] `hashCode()` - for Java version only
 * [ ] money object comparison with different currency
+* [ ] a risk? that multiplication function uses - thus relied on - the equality check functionality to make itself more expressive 
 * [x] make tests speak - can only be done in Java through the built-in `equal()` hook for equality comparison, wonderful Java  
 * [x] null money object comparison
 * [x] `equals()` immutability for money - hard for JavaScript objects cause they don't have the `equal()` and `hashCode()` methods..
