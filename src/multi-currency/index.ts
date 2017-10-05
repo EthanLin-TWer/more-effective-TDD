@@ -5,11 +5,11 @@ export default class Dollar {
     this.amount = amount
   }
 
-  public times(multiplications: number) {
+  public times(multiplications: number): Dollar {
     return new Dollar(this.amount * multiplications)
   }
 
-  public equals(dollar: Dollar) {
+  public equals(dollar: Dollar): boolean {
     if (dollar === null) {
       return false
     }
