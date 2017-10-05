@@ -9,6 +9,7 @@
 * [ ] money object comparison with different currency
 * [ ] a risk? that multiplication function uses - thus relied on - the equality check functionality to make itself more expressive 
 * [ ] how to get eslint working with TypeScript
+  * can eslint support both `.js(x)` and `.ts(x)` files? what are the recommended tools to use in either cases? 
   * should I commit generated `.js` files?
   * where should I locate the generated `.js` files? 
   * are those generated `.js` files part of the committed changes to git? 
