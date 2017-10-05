@@ -12,18 +12,16 @@
     "babel-preset-power-assert": "^1.0.0",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
-    "eslint": "^4.8.0",
-    "eslint-config-airbnb-base": "^12.0.1",
-    "eslint-plugin-import": "^2.7.0",
     "espower-typescript": "^8.1.1",
     "mocha": "^4.0.0",
     "nyc": "^11.2.1",
     "power-assert": "^1.4.4",
     "sinon": "^4.0.1",
+    "tslint": "^5.7.0",
     "typescript": "^2.5.3"
   },
   "scripts": {
-    "lint": "eslint src test",
+    "lint": "tslint \"src/**/*.ts\" \"test/**/*.ts\"",
     "test": "mocha --require espower-typescript/guess --require babel-register test/**/*.test.ts",
     "report": "nyc npm test"
   },
@@ -40,10 +38,22 @@
       "src/**/*.test.js"
     ],
     "watermarks": {
-      "lines": [85, 95],
-      "statements": [85, 95],
-      "functions": [85, 95],
-      "branches": [85, 95]
+      "lines": [
+        85,
+        95
+      ],
+      "statements": [
+        85,
+        95
+      ],
+      "functions": [
+        85,
+        95
+      ],
+      "branches": [
+        85,
+        95
+      ]
     }
   },
   "repository": {

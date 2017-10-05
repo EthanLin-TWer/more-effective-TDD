@@ -1,8 +1,11 @@
 # Intellij
 .idea
 *.ipr
-*.iml
 *.iws
+
+# TypeScript generated .js file
+src/**/*.js
+test/**/*.js
 
 # Node package management
 node_modules
@@ -10,3 +13,4 @@ node_modules
 # Test coverage report
 .nyc_output
 coverage
+
