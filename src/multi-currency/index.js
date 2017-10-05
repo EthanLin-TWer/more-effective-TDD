@@ -4,6 +4,6 @@ export default class Dollar {
   }
 
   times(multiplications) {
-    this.amount = this.amount * multiplications
+    this.amount *= multiplications
   }
 }

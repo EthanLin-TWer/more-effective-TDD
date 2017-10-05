@@ -43,3 +43,8 @@ TDD 的每一个小步骤，每个步骤都专注于一件事：
 5. 重构（专注于更好的实现，不专注于修改测试（也即修改功能））
 
 If dependency is the problem, duplication is the symptom.
+
+Duplication 在哪里？
+
+* 测试与实现之间 hard-code 的常量
+* 
