@@ -2,12 +2,12 @@
 
 ## Kent's todolist 
 
-* [ ] how to get normal node working with TypeScript - no idea, don't worry this for now  
+* [ ] $5 + 10CHF = $10 if rate is 2:1 16:41:30
 * [ ] money rounding 
-* [ ] $5 + 10CHF = $10 if rate is 2:1
 * [ ] `hashCode()` - for Java version only
 * [ ] money object comparison with different currency
 * [ ] a risk? that multiplication function uses - thus relied on - the equality check functionality to make itself more expressive 
+* [ ] how to get normal node working with TypeScript - no idea, don't worry this for now  
 * [ ] how to get eslint working with TypeScript
   * can eslint support both `.js(x)` and `.ts(x)` files? what are the recommended tools to use in either cases? 
   * should I commit generated `.js` files?
