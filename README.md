@@ -137,34 +137,34 @@
 
 ### Best Materials 最精华资料
 
-* [Kent Beck: Test Driven Development by Example](https://book.douban.com/subject/1230036/)
-* [仝健：编程的精进之法](https://www.zybuluo.com/jtong/note/504192)
-* [仝健：像机器一样思考（系列）](https://www.zybuluo.com/jtong/note/403738)
-  * [像机器一样思考（一）—— 宏观的基础](https://www.zybuluo.com/jtong/note/403738)
-  * [像机器一样思考（二）—— 数据的细节](https://www.zybuluo.com/jtong/note/471501)
-  * [像机器一样思考（三）—— 穷尽就是力量](https://www.zybuluo.com/jtong/note/473123)
-  * [像机器一样思考（四）—— 一图抵千言](https://www.zybuluo.com/jtong/note/774931)
-  * [像机器一样思考（五）—— 第一个应用](https://www.zybuluo.com/jtong/note/640178)
-  * [像机器一样思考（六） —— 脑中的重构](https://www.zybuluo.com/jtong/note/641148)
-  * [像机器一样思考（七） —— 跨应用思考](https://www.zybuluo.com/jtong/note/480426)
-* [伍斌：驯服烂代码](https://book.douban.com/subject/26208707/)
-* [Martin Fowler/Jeff Xiong：重构-改善既有代码的设计](https://book.douban.com/subject/4262627/)
-* [Robert C.Martin：代码整洁之道](https://book.douban.com/subject/4199741/)
-* [GoF：设计模式-可复用面向对象软件的基础](https://book.douban.com/subject/1052241/)
-* [Joshua Kerievsky：重构与模式](https://book.douban.com/subject/20393327/)
+* [ ] [Kent Beck: Test Driven Development by Example](https://book.douban.com/subject/1230036/)
+* [x] [仝健：编程的精进之法](https://www.zybuluo.com/jtong/note/504192)
+* [x] [仝健：像机器一样思考（系列）](https://www.zybuluo.com/jtong/note/403738)
+  * [x] [像机器一样思考（一）—— 宏观的基础](https://www.zybuluo.com/jtong/note/403738)
+  * [x] [像机器一样思考（二）—— 数据的细节](https://www.zybuluo.com/jtong/note/471501)
+  * [x] [像机器一样思考（三）—— 穷尽就是力量](https://www.zybuluo.com/jtong/note/473123)
+  * [ ] [像机器一样思考（四）—— 一图抵千言](https://www.zybuluo.com/jtong/note/774931)
+  * [ ] [像机器一样思考（五）—— 第一个应用](https://www.zybuluo.com/jtong/note/640178)
+  * [ ] [像机器一样思考（六）—— 脑中的重构](https://www.zybuluo.com/jtong/note/641148)
+  * [ ] [像机器一样思考（七）—— 跨应用思考](https://www.zybuluo.com/jtong/note/480426)
+* [ ] [伍斌：驯服烂代码](https://book.douban.com/subject/26208707/)
+* [ ] [Martin Fowler/Jeff Xiong：重构-改善既有代码的设计](https://book.douban.com/subject/4262627/)
+* [ ] [Robert C.Martin：代码整洁之道](https://book.douban.com/subject/4199741/)
+* [ ] [GoF ：设计模式-可复用面向对象软件的基础](https://book.douban.com/subject/1052241/)
+* [ ] [Joshua Kerievsky：重构与模式](https://book.douban.com/subject/20393327/)
 
 ### Argues 论战
 
-* [TDD 并不是看上去的那么美 - CoolShell](http://coolshell.cn/articles/3649.html)
-* [虚拟座谈会：TDD 有多美 - infoq](http://www.infoq.com/cn/articles/virtual-panel-tdd)
-* [Todd Wei: TDD 到底美不美 - cnblogs](http://www.cnblogs.com/weidagang2046/archive/2011/02/23/1963277.html)
-* [逸言: 推行 TDD 的思考](http://agiledon.github.io/blog/2013/12/25/thought-about-applying-tdd/)
-* Martin Fowler & Kent Beck & DHH: Is TDD Dead? Series
-    * [Is TDD Dead? Part I](https://www.youtube.com/watch?v=z9quxZsLcfo)
-    * [Is TDD Dead? Part II](https://www.youtube.com/watch?v=JoTB2mcjU7w)
-    * [Is TDD Dead? Part III](https://www.youtube.com/watch?v=YNw4baDz6WA)
-    * [Is TDD Dead? Part IV](https://www.youtube.com/watch?v=dGtasFJnUxI)
-    * [Is TDD Dead? Part V & VI](https://www.youtube.com/watch?v=gWD6REVeKW4)
+* [x] [TDD 并不是看上去的那么美 - CoolShell](http://coolshell.cn/articles/3649.html)
+* [x] [虚拟座谈会：TDD 有多美 - infoq](http://www.infoq.com/cn/articles/virtual-panel-tdd)
+* [x] [Todd Wei: TDD 到底美不美 - cnblogs](http://www.cnblogs.com/weidagang2046/archive/2011/02/23/1963277.html)
+* [x] [逸言: 推行 TDD 的思考](http://agiledon.github.io/blog/2013/12/25/thought-about-applying-tdd/)
+* [ ] Martin Fowler & Kent Beck & DHH: Is TDD Dead? Series
+    * [ ] [Is TDD Dead? Part I](https://www.youtube.com/watch?v=z9quxZsLcfo)
+    * [ ] [Is TDD Dead? Part II](https://www.youtube.com/watch?v=JoTB2mcjU7w)
+    * [ ] [Is TDD Dead? Part III](https://www.youtube.com/watch?v=YNw4baDz6WA)
+    * [ ] [Is TDD Dead? Part IV](https://www.youtube.com/watch?v=dGtasFJnUxI)
+    * [ ] [Is TDD Dead? Part V & VI](https://www.youtube.com/watch?v=gWD6REVeKW4)
 
 ### My takes 我的思考
 
