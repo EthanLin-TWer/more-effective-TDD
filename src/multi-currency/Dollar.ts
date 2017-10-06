@@ -5,7 +5,7 @@ export default class Dollar extends Money {
     super(amount)
   }
 
-  public times(multiplications: number): Dollar {
+  public times(multiplications: number): Money {
     return new Dollar(this.amount * multiplications)
   }
 }
