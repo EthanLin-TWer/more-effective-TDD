@@ -1,5 +1,5 @@
 import * as assert from 'assert'
-import Dollar from '../../src/multi-currency'
+import Dollar from '../../src/multi-currency/Dollar'
 
 it('multiplication', () => {
   assert(new Dollar(5).times(2).equals(new Dollar(10)))
