@@ -1,5 +1,5 @@
 export default class Money {
-  protected amount: number
+  public amount: number
 
   constructor(amount: number) {
     this.amount = amount

@@ -9,11 +9,11 @@ export default class Dollar extends Money {
     return new Dollar(this.amount * multiplications)
   }
 
-  public equals(dollar: Dollar): boolean {
-    if (dollar === null) {
+  public equals(money: Money): boolean {
+    if (money === null) {
       return false
     }
 
-    return this.amount === dollar.amount
+    return this.amount === money.amount
   }
 }
