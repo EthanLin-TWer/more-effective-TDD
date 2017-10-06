@@ -14,6 +14,6 @@ export default class Dollar extends Money {
       return false
     }
 
-    return this.amount === money.amount
+    return this.amount === (money as Dollar).amount
   }
 }
