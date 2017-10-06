@@ -2,7 +2,7 @@
 
 ## Kent's todolist 
 
-* [ ] $5 + 10CHF = $10 if rate is 2:1 16:41:30
+* [ ] $5 + 10CHF = $10 if rate is 2:1 
 * [ ] money rounding 
 * [ ] `hashCode()` - for Java version only
 * [ ] money object comparison with different currency
@@ -13,6 +13,7 @@
   * should I commit generated `.js` files?
   * where should I locate the generated `.js` files? 
   * are those generated `.js` files part of the committed changes to git? 
+* [x] 5CHF + 10CHF = 15CHF
 * [x] introduce tslint for typed js linting   
 * [x] make tests speak - can only be done in Java through the built-in `equal()` hook for equality comparison, wonderful Java  
 * [x] null money object comparison
