@@ -1,4 +1,10 @@
+import Dollar from './Dollar'
+
 export default class Money {
+  public static dollar(amount: number): Money {
+    return new Dollar(amount)
+  }
+
   protected amount: number
 
   constructor(amount: number) {

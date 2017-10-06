@@ -101,3 +101,18 @@ TDD 的一般步骤，教主原话：
 
 > Write the tests you wish you had. If you don't, you will eventually break something while refactoring. Then you'll get bad feelings about refactoring and stop doing it so much. Then your design will deteriorate. You'll be fired. Your dog will leave you. You will stop paying attention to your nutrition. Your teeth will go bad. So, to keep your teeth healthy, retroactively test before refactoring. 
 
+```ts
+import Money from './Money'
+
+export default class Dollar extends Money {
+  constructor(amount: number) {
+    super(amount)
+  }
+
+  public times(multiplications: number): Money {
+    return new Dollar(this.amount * multiplications)
+  }
+}
+```
+
+当两个 类变成上面这种结构的时候，不仅 `times` 方法非常相像，Kent 表示他觉得这两个子类没必要了。但要挪除，怎么挪除呢？一下抛出解决方案又很不 TDD，怎么办呢？先一点点来，按照重构的思路：先尽可能移除引用点，或至少集中到一个地方。因此，工厂方法就这么自然而然地诞生了。

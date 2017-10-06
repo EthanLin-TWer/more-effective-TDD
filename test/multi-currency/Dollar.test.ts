@@ -1,9 +1,10 @@
 import * as assert from 'assert'
 import Dollar from '../../src/multi-currency/Dollar'
+import Money from '../../src/multi-currency/Money'
 
 it('multiplication', () => {
-  assert(new Dollar(5).times(2).equals(new Dollar(10)))
-  assert(new Dollar(5).times(3).equals(new Dollar(15)))
+  assert(Money.dollar(5).times(2).equals(Money.dollar(10)))
+  assert(Money.dollar(5).times(3).equals(Money.dollar(15)))
 })
 
 it('money equality', () => {
