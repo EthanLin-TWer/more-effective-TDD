@@ -7,6 +7,7 @@
 * [ ] $5 + 10CHF = $10 if rate is 2:1 
 * [ ] money rounding 
 * [ ] `hashCode()` - for Java version only
+* [ ] currency? to remove rely on JavaScript reflection features 
 * [ ] money object comparison with different currency
 * [ ] a risk? that multiplication function uses - thus relied on - the equality check functionality to make itself more expressive 
 * [ ] how to get normal node working with TypeScript - no idea, don't worry this for now  
