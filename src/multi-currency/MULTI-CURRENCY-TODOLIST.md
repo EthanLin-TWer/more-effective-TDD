@@ -97,3 +97,6 @@ TDD 的一般步骤，教主原话：
 做最小的修改让测试通过，其实不仅限于说写最少的代码，而是以最快的速度。我可能抄了很多代码，但从速度上来说依然是快的。没问题，那就抄嘛，然后再来消除重复就好了。看我们抄 `France` 类的例子。
 
 另外，TDD 的五个步骤中，第二步第三步有可能做熟了直接可以省掉，但要知道自己在哪里。
+
+> Write the tests you wish you had. If you don't, you will eventually break something while refactoring. Then you'll get bad feelings about refactoring and stop doing it so much. Then your design will deteriorate. You'll be fired. Your dog will leave you. You will stop paying attention to your nutrition. Your teeth will go bad. So, to keep your teeth healthy, retroactively test before refactoring. 
+
