@@ -1,19 +1,11 @@
-export default class France {
-  private amount: number
+import Money from './Money'
 
+export default class France extends Money {
   constructor(amount: number) {
-    this.amount = amount
+    super(amount)
   }
 
   public times(multiplications: number): France {
     return new France(this.amount * multiplications)
-  }
-
-  public equals(dollar: France): boolean {
-    if (dollar === null) {
-      return false
-    }
-
-    return this.amount === dollar.amount
   }
 }
