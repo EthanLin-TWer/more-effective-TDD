@@ -3,7 +3,6 @@
 ## Kent's todolist 
 
 * [ ] `Dollar`/`France` duplications
-* [ ] common `equals` 
 * [ ] common `times` 
 * [ ] $5 + 10CHF = $10 if rate is 2:1 
 * [ ] money rounding 
@@ -16,6 +15,7 @@
   * should I commit generated `.js` files?
   * where should I locate the generated `.js` files? 
   * are those generated `.js` files part of the committed changes to git? 
+* [x] common `equals` 
 * [x] 5CHF + 10CHF = 15CHF
 * [x] introduce tslint for typed js linting   
 * [x] make tests speak - can only be done in Java through the built-in `equal()` hook for equality comparison, wonderful Java  
