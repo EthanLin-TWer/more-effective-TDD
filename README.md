@@ -135,6 +135,8 @@
 
 ## Reference 参考
 
+好像不错的一个系列，可以看看：http://randycoulman.com/blog/2015/07/21/getting-testy-anti-patterns/
+
 ### Best Materials 最精华资料
 
 * [ ] [Kent Beck: Test Driven Development by Example](https://book.douban.com/subject/1230036/)
