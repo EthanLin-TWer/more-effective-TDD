@@ -1,48 +1,82 @@
 {
   "name": "elegant-tdd",
   "version": "1.0.0",
-  "description": "Everything about TDD.",
-  "main": "index.js",
-  "devDependencies": {
-    "@types/mocha": "^2.2.43",
-    "@types/node": "^8.0.32",
-    "babel-core": "^6.26.0",
-    "babel-plugin-espower": "^2.3.2",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-power-assert": "^1.0.0",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "espower-typescript": "^8.1.1",
-    "mocha": "^4.0.0",
-    "nyc": "^11.2.1",
-    "power-assert": "^1.4.4",
-    "sinon": "^4.0.1",
-    "tslint": "^5.7.0",
-    "typescript": "^2.5.3"
-  },
+  "description": "TDD resources(articles/katas/etc).",
+  "main": "README.md",
   "scripts": {
-    "lint": "tslint \"src/**/*.ts\" \"test/**/*.ts\"",
-    "test": "mocha --require espower-typescript/guess --require babel-register test/**/*.test.ts",
-    "report": "nyc npm test"
+    "lint": "eslint src test --ext .ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --coverage --verbose"
   },
-  "nyc": {
-    "require": [
-      "babel-register"
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.16",
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "eslint": "^6.7.2",
+    "eslint-config-javascript-the-good-parts": "^1.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/test/*.test.(js|ts)"
     ],
-    "check-coverage": true,
-    "lines": 90,
-    "statements": 90,
-    "functions": 90,
-    "branches": 90,
-    "include": [
-      "src/**/*.test.ts"
+    "transform": {
+      ".js": "babel-jest",
+      ".ts$": "ts-jest"
+    },
+    "verbose": false,
+    "collectCoverage": false
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "arrowParens": "always"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
     ],
-    "watermarks": {
-      "lines": [85, 95],
-      "statements": [85, 95],
-      "functions": [85, 95],
-      "branches": [85, 95]
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ],
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ]
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "src/**/*.(js|ts)": [
+      "npm run lint -- --fix",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
@@ -52,7 +86,8 @@
     "tdd",
     "tasking",
     "test-driven-development",
-    "deliberate-practice"
+    "deliberate-practice",
+    "kata"
   ],
   "author": "Linesh",
   "license": "MIT",

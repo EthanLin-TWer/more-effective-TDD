@@ -1,0 +1,21 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["prettier", "@typescript-eslint"],
+  "extends": ["prettier", "javascript-the-good-parts"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "globals": {
+    "__DEV__": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "lines-between-class-members": "off"
+  }
+}
