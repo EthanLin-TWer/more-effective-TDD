@@ -5,7 +5,6 @@
 
 # TypeScript generated .js file
 src/**/*.js
-test/**/*.js
 
 # Node package management
 node_modules

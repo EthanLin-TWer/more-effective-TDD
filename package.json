@@ -4,7 +4,7 @@
   "description": "TDD resources(articles/katas/etc).",
   "main": "README.md",
   "scripts": {
-    "lint": "eslint src test --ext .ts",
+    "lint": "eslint src --ext .ts",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:ci": "jest --coverage --verbose"
@@ -31,7 +31,7 @@
   },
   "jest": {
     "testMatch": [
-      "<rootDir>/test/*.test.(js|ts)"
+      "<rootDir>/src/*.test.(js|ts)"
     ],
     "transform": {
       ".js": "babel-jest",

@@ -1,4 +1,4 @@
-import { babelWorksWithExports, TypeScriptCalculator } from '../src'
+import { babelWorksWithExports, TypeScriptCalculator } from './index'
 
 it('should jest and babel works for ES6 import/export', () => {
   expect(babelWorksWithExports()).toEqual(true)
