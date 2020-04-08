@@ -186,6 +186,11 @@
 ### Inspirations 其他
 
 - [李小波：深度解读测试驱动开发](http://gitbook.cn/books/58c2ac77306e988f12697f16/index.html)
+- https://github.com/tws-practice/dojo
+- https://github.com/gamontal/awesome-katas
+- http://codekata.com/
+- http://codingdojo.org/kata/
+- http://coding-is-like-cooking.info/tag/code-kata/page/5/
 
 ---
 
