@@ -16,6 +16,9 @@
   },
   "rules": {
     "prettier/prettier": "error",
-    "lines-between-class-members": "off"
+    "lines-between-class-members": "off",
+    "prefer-destructuring": "off",
+    "class-methods-use-this": "warn",
+    "no-unused-vars": "warn"
   }
 }
