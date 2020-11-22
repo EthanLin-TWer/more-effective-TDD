@@ -17,6 +17,28 @@
 
 **对于入门及进阶者来说**，可以看看本`README`里谈及的TDD其他方面，与自己的练习过程对比、查缺补漏。
 
+## 练习题
+
+* [🌟FizzBuzz](src/fizzbuzz/README-FizzBuzz.md)
+* [🌟Length](src/length/README-Length.md)
+* [🌟🌟Dialects](src/dialects/README-Dialects.md)
+* [🌟🌟Locker](src/locker/README-Locker.md)
+* [🌟🌟🌟Args](src/args/README-Args.md)
+* [🌟🌟🌟Bowling](src/bowling/README-Bowling.md)
+* [🌟🌟🌟🌟Calisthenics](src/calisthenics/README-Calisthenics.md)
+* [🌟🌟🌟🌟🌟Black Jack](src/blackjack/README-BlackJack.md)
+* [🌟🌟🌟🌟🌟Weapon Evolutions](src/weapon-evolutions/README-weapon-evolutions.md)
+
+最近还从项目中总结积累了一些实战项目比较常用的业务需求/模式需求，先放这有空做些题来做更加接近实战的练习。
+
+* 权限类问题：权限可以跟人走、跟物走、跟具体操作走等
+* 状态机问题：涉及一个穷尽的状态表、变迁控制及校验、每个状态的处理方法等问题
+  * 比如订单状态：created - submitted - validated - payment - shipping - cancelled等闭环状态
+  * 比如金融买卖：submitted - validated - accepted(auto-accepted) - pending - executed/rejected等状态
+* 校验类问题：涉及多种类型校验、校验逻辑实现、结果报告方式等问题
+* 流程类问题：涉及流程状态变更、流程时间节点及时间线、时区、交易日等问题，常见例子是保单、金融资产调仓等
+* 发布-订阅类问题：涉及调度系统如拉取/推送机制、任务状态、重试机制等问题实现，系统可以是通用的，也可以与特殊业务耦合，常见例子是队列、定时作业系统等
+
 ## TDD的基本过程
 
 ## What is(is not) TDD / TDD（不）是什么
