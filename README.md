@@ -13,15 +13,15 @@
 
 ## 练习题
 
-* [🌟FizzBuzz](src/fizzbuzz/README-FizzBuzz.md)
-* [🌟Length](src/length/README-Length.md)
-* [🌟🌟Dialects](src/dialects/README-Dialects.md)
-* [🌟🌟Locker](src/locker/README-Locker.md)
-* [🌟🌟🌟Args](src/args/README-Args.md)
-* [🌟🌟🌟Bowling](src/bowling/README-Bowling.md)
-* [🌟🌟🌟🌟Calisthenics](src/calisthenics/README-Calisthenics.md)
-* [🌟🌟🌟🌟🌟Black Jack](src/blackjack/README-BlackJack.md)
-* [🌟🌟🌟🌟🌟Weapon Evolutions](src/weapon-evolutions/README-weapon-evolutions.md)
+* [🌟 FizzBuzz](src/fizzbuzz/README-FizzBuzz.md)
+* [🌟 Length](src/length/README-Length.md)
+* [🌟🌟 Dialects](src/dialects/README-Dialects.md)
+* [🌟🌟 Locker](src/locker/README-Locker.md)
+* [🌟🌟🌟 Args](src/args/README-Args.md)
+* [🌟🌟🌟 Bowling](src/bowling/README-Bowling.md)
+* [🌟🌟🌟🌟 Calisthenics](src/calisthenics/README-Calisthenics.md)
+* [🌟🌟🌟🌟🌟 Black Jack](src/blackjack/README-BlackJack.md)
+* [🌟🌟🌟🌟🌟 Weapon Evolutions](src/weapon-evolutions/README-weapon-evolutions.md)
 
 ## TDD的基本过程
 
