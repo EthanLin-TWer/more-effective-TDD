@@ -5,11 +5,12 @@
 本仓库主要提供两样东西：一系列可供刻意练习TDD的kata，以及一个布道者和实践者在真实软件项目中的实践心得。
 
 <details>
-  <summary>本仓库翻新中，进度12.5%。。。点我查看详情</summary>
+  <summary>本仓库翻新中，进度11.1%。。。点我查看详情</summary>
   <ul>
     <li>✅ 更新导语</li>
     <li>🚧 翻新实践部分</li>
     <li>🚧 翻新资料引用部分</li>
+    <li>🚧 修一下挂掉的测试</li>
     <li>🚧 编写TypeScript实践指引</li>
     <li>🚧 录制TypeScript FizzBuzz视频</li>
     <li>🚧 编写Java实践指引</li>
@@ -156,7 +157,7 @@ TDD是一种先写测试、后写代码的工作方法，它有别于更为本�
 
 - 安装：`git clone git@github.com:EthanLin-TWer/more-effective-TDD.git`
 - 依赖安装：`npm install`
-- 运行 checkstyle：`npm run lint`
+- 运行 checkstyle：`npm run lint`e
 - 运行所有测试：`npm test`
 
 ## Reference 参考
