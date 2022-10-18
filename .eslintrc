@@ -1,9 +1,13 @@
 {
   "parser": "@typescript-eslint/parser",
-  "plugins": ["prettier", "@typescript-eslint"],
-  "extends": ["prettier", "javascript-the-good-parts"],
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "prettier",
+    "javascript-the-good-parts",
+    "plugin:@typescript-eslint/recommended"
+  ],
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaVersion": 2022,
     "sourceType": "module"
   },
   "env": {
@@ -15,7 +19,6 @@
     "__DEV__": true
   },
   "rules": {
-    "prettier/prettier": "error",
     "lines-between-class-members": "off",
     "prefer-destructuring": "off",
     "class-methods-use-this": "warn",
