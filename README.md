@@ -1,10 +1,4 @@
-# TDD 练习心得 [![][badges: travis ci]][links: travis ci]
-
-> 对TDD的认识走过几个阶段，先是狂热好辨，中间有段低落，现在对它充满信心，唯恐练习不足。跟养成任何一个习惯一样，一开始总是有种种不适，觉得这也不会，那也不顺，这是习惯养成第一阶段，此时唯一需要的就是信心和坚持，跟社群一起学习成长可以更快度过这个阶段。过了一两周，你开始初入学习门径，开始辨别到基本功的关节所在（如何拆分任务、如何小步前进、如何编写第一个用例、如何使用快捷键、如何快速获得一个可运行测试的环境……），开始刻意练习，你就会感受到这个新习惯带来的好处：提升效率、活跃思维。
->
-> 对于初学者来说，关键在于最初的两周，你只需要两件东西：信心和坚持。正如仝校长所说，**大道至简，坚持者寡**。与诸君共勉。
->
-> 2020 年 10 月
+# More Effective TDD
 
 ## 本仓库有什么
 
@@ -228,8 +222,6 @@
 
 ---
 
-[badges: travis ci]: https://travis-ci.org/linesh-simplicity/elegant-TDD.svg?branch=master
-[links: travis ci]: https://travis-ci.org/linesh-simplicity/elegant-TDD
 [@babel]: https://babeljs.io/
 [@webstorm]: https://www.jetbrains.com/webstorm/
 [eslint]: https://eslint.org/
