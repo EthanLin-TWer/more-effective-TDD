@@ -4,6 +4,20 @@
 
 本仓库主要提供两样东西：一系列可供刻意练习TDD的kata，以及一个布道者和实践者在真实软件项目中的实践心得。
 
+<details>
+  <summary>本仓库翻新中，进度12.5%。。。点我查看详情</summary>
+  <ul>
+    <li>✅ 更新导语</li>
+    <li>🚧 翻新实践部分</li>
+    <li>🚧 翻新资料引用部分</li>
+    <li>🚧 编写TypeScript实践指引</li>
+    <li>🚧 录制TypeScript FizzBuzz视频</li>
+    <li>🚧 编写Java实践指引</li>
+    <li>🚧 录制Java FizzBuzz视频</li>
+    <li>🚧 翻新仓库里的TS项目配置</li>
+  </ul>
+</details>
+
 ## TDD是什么？为什么TDD很重要？
 
 TDD是[极限编程](http://www.extremeprogramming.cn/content/xp/introduction.html)中的一项核心技术实践。不做TDD，就不能产出高质量的自动化测试集，就不能避免越来越繁重的手工回归测试流程，也不能做安全的不破坏功能的重构。简单讲，[不做TDD，就不能产生真正意义上的高质量的可工作软件](https://ethan.thoughtworkers.me/#/post/2022-05-22-why-tdd-is-still-mandatory-in-current-era)。
