@@ -1,5 +1,5 @@
 {
-  "name": "elegant-tdd",
+  "name": "move-effective-tdd",
   "version": "1.0.0",
   "description": "TDD resources(articles/katas/etc).",
   "main": "README.md",
@@ -80,7 +80,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/linesh-simplicity/elegant-TDD.git"
+    "url": "git+https://github.com/EthanLin-TWer/move-effective-TDD.git"
   },
   "keywords": [
     "tdd",
@@ -92,7 +92,7 @@
   "author": "Linesh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/linesh-simplicity/elegant-TDD/issues"
+    "url": "https://github.com/EthanLin-TWer/move-effective-TDD/issues"
   },
-  "homepage": "https://github.com/linesh-simplicity/elegant-TDD#readme"
+  "homepage": "https://github.com/EthanLin-TWer/move-effective-TDD#readme"
 }

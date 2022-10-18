@@ -148,7 +148,7 @@
 
 ## Getting Started 运行项目
 
-- 安装：`git clone git@github.com:linesh-simplicity/elegant-tdd.git`
+- 安装：`git clone git@github.com:EthanLin-TWer/more-effective-TDD.git`
 - 依赖安装：`npm install`
 - 运行 checkstyle：`npm run lint`
 - 运行所有测试：`npm test`
