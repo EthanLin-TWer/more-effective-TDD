@@ -152,15 +152,6 @@ TDD是一种先写测试、后写代码的工作方法，它有别于更为本�
 - 重构
 - 设计模式
 
-## Tech Stack & Credits 技术栈
-
-- JavaScript ES6 & ES7(transpiled with [@babel][])
-- WebStorm [@webstorm][]
-- [ESLint][]
-- [Mocha][], [power-assert][] and [sinon][]
-- [istanbul][] / nyc
-- [Travis CI][]
-
 ## Getting Started 运行项目
 
 - 安装：`git clone git@github.com:EthanLin-TWer/more-effective-TDD.git`
