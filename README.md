@@ -5,7 +5,7 @@
 本仓库主要提供两样东西：一系列可供刻意练习TDD的kata，以及一个布道者和实践者在真实软件项目中的实践心得。
 
 <details>
-  <summary>本仓库翻新中，进度10%。。。点我查看详情</summary>
+  <summary>本仓库翻新中，进度9%。。。点我查看详情</summary>
   <ul>
     <li>✅ 更新导语</li>
     <li>🚧 翻新实践部分</li>
@@ -17,6 +17,7 @@
     <li>🚧 录制Java FizzBuzz视频</li>
     <li>🚧 翻新仓库里的TS项目配置</li>
     <li>🚧 思考一下，能不能把这个仓库做成所有要学习TDD人都可以用的一个入口？</li>
+    <li>🚧 要不要做一个类似于Frontend Roadmap的一个TDD roadmap？</li>
   </ul>
 </details>
 
