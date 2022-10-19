@@ -139,14 +139,6 @@ npm test
   - [ ] 「订单详情」页样式
 ```
 
-## Feedback in a quicker way / 快速反馈
-
-待写。
-
-## Key & Methods of design 设计的道与术
-
-怎么样算是好的设计呢？首先要问，为什么要设计，它旨在解决/应对什么问题？回答是，**变化**。其实整个 TDD 的核心理念基础，也是认定变化必然、频繁存在。因此我们通过**减少无效未来需求**和**减少变化发生时带来的变更成本**两种方式来应对。TDD 顺便解决了第一个问题，而设计则是为了要解决第二个问题。
-
 ### The key of design 设计之道
 
 那么，如何减少变化发生时带来的变更成本呢？目前软件工程普遍认可的一种方式是：**每次修改只改动与变化相关的地方**。这就必然要求软件模块之间高内聚、低耦合，基于这种认知，目前的 5 条 [SOLID](<https://www.wikiwand.com/en/SOLID_(object-oriented_design)>) 原则可以认为是整个设计模式体系的提纲挈领：
@@ -156,13 +148,6 @@ npm test
 - Dependency Inversion Principle: 依赖倒转原则。
 - Interface Segregation Principle: 接口隔离原则。
 - Liskov Substitution Principle: 里氏替换原则。
-
-其要义均是隔离变化，尽量使每个模块（单元/类/方法）职责单一、相互独立，只有一个改变的理由。
-
-### The method of design 设计之术
-
-- 重构
-- 设计模式
 
 ## Reference 参考
 
