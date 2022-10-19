@@ -29,6 +29,16 @@ TDD是一种先写测试、后写代码的工作方法，它有别于更为本�
 
 ## 练习题
 
+好的，让我们开始愉快地撸代码吧！
+
+```shell
+git clone git@github.com:EthanLin-TWer/more-effective-TDD.git
+npm install
+npm test
+```
+
+你可以选你喜欢的题目开始练习。题目前的星级表示难度，⭐越多，难度越高，对实践的理解和熟练程度要求越高。
+
 * [🌟 FizzBuzz](src/fizzbuzz/README-FizzBuzz.md)
 * [🌟 Length](src/length/README-Length.md)
 * [🌟🌟 Dialects](src/dialects/README-Dialects.md)
@@ -152,13 +162,6 @@ TDD是一种先写测试、后写代码的工作方法，它有别于更为本�
 
 - 重构
 - 设计模式
-
-## Getting Started 运行项目
-
-- 安装：`git clone git@github.com:EthanLin-TWer/more-effective-TDD.git`
-- 依赖安装：`npm install`
-- 运行 checkstyle：`npm run lint`e
-- 运行所有测试：`npm test`
 
 ## Reference 参考
 
