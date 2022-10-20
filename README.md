@@ -5,11 +5,11 @@
 本仓库主要提供两样东西：一系列可供刻意练习TDD的kata，以及一个布道者和实践者在真实软件项目中的实践心得。
 
 <details>
-  <summary>本仓库翻新中，进度9%。。。点我查看详情</summary>
+  <summary>本仓库翻新中，进度18%。。。点我查看详情</summary>
   <ul>
     <li>✅ 更新导语</li>
     <li>🚧 翻新实践部分</li>
-    <li>🚧 翻新资料引用部分</li>
+    <li>✅ 翻新资料引用部分</li>
     <li>🚧 修一下挂掉的测试</li>
     <li>🚧 编写TypeScript实践指引</li>
     <li>🚧 录制TypeScript FizzBuzz视频</li>
@@ -165,6 +165,10 @@ npm test
 ### Best Materials 最精华资料
 
 - [ ] [Kent Beck: Test Driven Development by Example](https://book.douban.com/subject/1230036/)
+- [李小波：深度解读测试驱动开发](http://gitbook.cn/books/58c2ac77306e988f12697f16/index.html)
+
+#### Tasking
+
 - [x] [仝健：编程的精进之法](https://www.zybuluo.com/jtong/note/504192)
 - [x] [仝健：像机器一样思考（系列）](https://www.zybuluo.com/jtong/note/403738)
   - [x] [像机器一样思考（一）—— 宏观的基础](https://www.zybuluo.com/jtong/note/403738)
@@ -174,28 +178,37 @@ npm test
   - [ ] [像机器一样思考（五）—— 第一个应用](https://www.zybuluo.com/jtong/note/640178)
   - [ ] [像机器一样思考（六）—— 脑中的重构](https://www.zybuluo.com/jtong/note/641148)
   - [ ] [像机器一样思考（七）—— 跨应用思考](https://www.zybuluo.com/jtong/note/480426)
+
+#### 整洁代码
+
 - [ ] [伍斌：驯服烂代码](https://book.douban.com/subject/26208707/)
-- [ ] [Martin Fowler/Jeff Xiong：重构-改善既有代码的设计](https://book.douban.com/subject/4262627/)
 - [ ] [Robert C.Martin：代码整洁之道](https://book.douban.com/subject/4199741/)
-- [ ] [GoF ：设计模式-可复用面向对象软件的基础](https://book.douban.com/subject/1052241/)
+
+#### 重构
+
+- [ ] [Martin Fowler：重构2-改善既有代码的设计](https://book.douban.com/subject/30468597/)
 - [ ] [Joshua Kerievsky：重构与模式](https://book.douban.com/subject/20393327/)
 
-### Argues 论战
+#### 设计
 
-- [x] [TDD 并不是看上去的那么美 - CoolShell](http://coolshell.cn/articles/3649.html)
-- [x] [虚拟座谈会：TDD 有多美 - infoq](http://www.infoq.com/cn/articles/virtual-panel-tdd)
-- [x] [Todd Wei: TDD 到底美不美 - cnblogs](http://www.cnblogs.com/weidagang2046/archive/2011/02/23/1963277.html)
-- [x] [逸言: 推行 TDD 的思考](http://agiledon.github.io/blog/2013/12/25/thought-about-applying-tdd/)
+- [ ] [GoF：设计模式-可复用面向对象软件的基础](https://book.douban.com/subject/1052241/)
+- [ ] [Freeman：Growing Object-Oriented Software, Guided by Tests](https://book.douban.com/subject/4156589/)
+
+#### Argues 论战
+
 - [ ] Martin Fowler & Kent Beck & DHH: Is TDD Dead? Series
   - [ ] [Is TDD Dead? Part I](https://www.youtube.com/watch?v=z9quxZsLcfo)
   - [ ] [Is TDD Dead? Part II](https://www.youtube.com/watch?v=JoTB2mcjU7w)
   - [ ] [Is TDD Dead? Part III](https://www.youtube.com/watch?v=YNw4baDz6WA)
   - [ ] [Is TDD Dead? Part IV](https://www.youtube.com/watch?v=dGtasFJnUxI)
   - [ ] [Is TDD Dead? Part V & VI](https://www.youtube.com/watch?v=gWD6REVeKW4)
+- [x] [TDD 并不是看上去的那么美 - CoolShell](http://coolshell.cn/articles/3649.html)
+- [x] [虚拟座谈会：TDD 有多美 - infoq](http://www.infoq.com/cn/articles/virtual-panel-tdd)
+- [x] [Todd Wei: TDD 到底美不美 - cnblogs](http://www.cnblogs.com/weidagang2046/archive/2011/02/23/1963277.html)
+- [x] [逸言: 推行 TDD 的思考](http://agiledon.github.io/blog/2013/12/25/thought-about-applying-tdd/)
 
 ### Inspirations 其他
 
-- [李小波：深度解读测试驱动开发](http://gitbook.cn/books/58c2ac77306e988f12697f16/index.html)
 - https://github.com/tws-practice/dojo
 - https://github.com/gamontal/awesome-katas
 - http://codekata.com/
