@@ -193,17 +193,6 @@ npm test
   - [ ] [Is TDD Dead? Part IV](https://www.youtube.com/watch?v=dGtasFJnUxI)
   - [ ] [Is TDD Dead? Part V & VI](https://www.youtube.com/watch?v=gWD6REVeKW4)
 
-### My takes 我的思考
-
-算不得精华，但毕竟是我的思考过程，我的仓库我就做主了。
-
-- [TDD 回炉重造 #157](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/157)
-- [TDD 二回炉 #176](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/176)
-- [TDD 周报三「作为个人工具和团队实践的 TDD」 #177](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/177)
-- [TDD 周报四「TDD 是一门艺术，不是科学」 #178](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/178)
-- [TDD 周报五「TDD 是敏捷实践的灵魂」 #179](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/179)
-- [TDD 周报六「结语 - 我们为什么不用 TDD」 #181](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/181)
-
 ### Inspirations 其他
 
 - [李小波：深度解读测试驱动开发](http://gitbook.cn/books/58c2ac77306e988f12697f16/index.html)

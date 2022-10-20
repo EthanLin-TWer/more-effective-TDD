@@ -14,3 +14,12 @@
 ## Key & Methods of design 设计的道与术
 
 怎么样算是好的设计呢？首先要问，为什么要设计，它旨在解决/应对什么问题？回答是，**变化**。其实整个 TDD 的核心理念基础，也是认定变化必然、频繁存在。因此我们通过**减少无效未来需求**和**减少变化发生时带来的变更成本**两种方式来应对。TDD 顺便解决了第一个问题，而设计则是为了要解决第二个问题。
+
+## My Takes 中间一些杂杂的思考过程
+
+- [TDD 回炉重造 #157](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/157)
+- [TDD 二回炉 #176](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/176)
+- [TDD 周报三「作为个人工具和团队实践的 TDD」 #177](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/177)
+- [TDD 周报四「TDD 是一门艺术，不是科学」 #178](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/178)
+- [TDD 周报五「TDD 是敏捷实践的灵魂」 #179](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/179)
+- [TDD 周报六「结语 - 我们为什么不用 TDD」 #181](https://github.com/linesh-simplicity/linesh-simplicity.github.io/issues/181)
